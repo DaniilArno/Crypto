@@ -1,0 +1,260 @@
+{% extends 'base.njk' %}
+
+{% set page = "shop" %}
+
+{% block content %}
+
+  {% include 'partials/nav-top.njk' %}
+
+<div class="container-fluid bg-blue">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+				<div class="page-content__social  page-content__social-shop d-none d-lg-block">
+					<div class="page-content__social_item page-content__social_item1 d-flex align-items-center justify-content-center" >
+						<a href="#" class="page-content__socialIcon1">
+								<i class="fas fa-share-alt"></i>
+						</a>
+					</div>
+					<div class="page-content__social_item page-content__social_item2 d-flex align-items-center  justify-content-center ">
+						<a href="#" class="page-content__socialIcon2">
+								<i class="fab fa-vk"></i>
+						</a> 
+					</div>
+					<div class="page-content__social_item page-content__social_item3 d-flex align-items-center  justify-content-center ">
+						<a href="#"  class="page-content__socialIcon3">
+								<i class="fab fa-facebook-f"></i>
+						</a>	
+					</div>
+          </div>
+          <div class="page-content__header page-content__headerWhite shop__header">
+            <h1>Устройство безопасного хранения и ввода паролей Какаду Крипто</h1>
+          </div>
+				</div>
+			</div>
+		</div>
+	</div>
+<div class="container-fluid  bg-shop">
+		<div class="container ">
+				<div class="row">
+					<div class="col">
+						<div class="page-content page-content2">
+							<div class="page-content__desc">
+							 
+							<div class="shop__main-section">
+								<div class="shop__product-gallery ">
+										<!-- <div id="lg-wrap" class="img-wrapper">
+											<img id="large" src="/img/order-gallery/Device-kakadu.png" alt="" style="">
+										</div>
+										<div class="preview-wrapper">
+											<ul id='thumbnails' class="dots">
+												<li class="dots-item active"><a href="img/order-gallery/buy-kakadu-gal-01.jpg"
+																												onclick="makeActive(this); return false;"><img
+																src="img/order-gallery/buy-kakadu-gal-01.jpg" alt=""></a></li>
+												<li class="dots-item"><a href="img/order-gallery/buy-kakadu-gal-02.jpg"
+																								 onclick="makeActive(this); return false;"><img
+																src="img/order-gallery/buy-kakadu-gal-02.jpg" alt=""></a></li>
+												<li class="dots-item"><a href="img/order-gallery/buy-kakadu-gal-03.jpg"
+																								 onclick="makeActive(this); return false;"><img
+																src="img/order-gallery/buy-kakadu-gal-03.jpg" alt=""></a></li>
+											</ul>
+										</div> -->
+										<div class="row">
+												<div id="owl-carousel5" class="owl-carousel5 owl-carousel  owl-theme owl-loaded">
+														<div class="owl-stage-outer">
+																<div class="owl-stage">
+																	<div class="owl-item">
+																		<div class="owl-item-image ">
+																			<img src="/img/order-gallery/Device-kakadu.png" alt="">
+																		</div>
+																		</div>
+																		<div class="owl-item">
+																			<div class="owl-item-image">
+																				<img src="/img/order-gallery/Device-kakadu.png" alt="">
+																			</div>
+																	</div>
+																	<div class="owl-item">
+																			<div class="owl-item-image">
+																				<img src="/img/order-gallery/Device-kakadu.png" alt="">
+																			</div>
+																	</div>
+																</div>
+														</div>
+													</div>
+										</div>
+										
+										
+								</div>
+								{#<div class="shop__order-block">#}
+									{#<form action="#">#}
+										{#<p class="fz-14 m-0 lh-1"><b>Итого:</b> Розничная цена</p>#}
+										{#<div class="shop__price-count">#}
+											{#<div class="shop__initial-price-wrap mb-20">#}
+												{#<span class="shop__initial-price fz-48 fw-sbold ">3900<span class="fw-light">&nbsp;₽</span></span>#}
+												{#<div class="input-with-img">#}
+													{#<input id="input_count" type="number" value="1" min="1">#}
+													{#<div class="btn-absolute-wrapper">#}
+														{#<button class="btn-img"><img src="img/controls/icon-minus-circle.png" alt=""></button>#}
+														{#<button class="btn-img"><img src="img/controls/icon-plus-circle.png" alt=""></button>#}
+													{#</div>#}
+												{#</div>#}
+											{#</div>#}
+		
+		
+										{#</div>#}
+										{#<div class="shop__color-picker">#}
+											{#<div class="shop__color-picker__name"><p>Выберите цвет: </p></div>#}
+											{#<div class="shop__color-picker__item shop__color-picker__item--active"><div class="shop__color-picker__item__inner shop__color-picker__item--c-black"></div></div>#}
+											{#<div class="shop__color-picker__item"><div class="shop__color-picker__item__inner shop__color-picker__item--c-white"></div></div>#}
+											{#<div class="shop__color-picker__item"><div class="shop__color-picker__item__inner shop__color-picker__item--c-blue"></div></div>#}
+		
+											{#<div class="shop__color-picker__item shop__color-picker__item--c-white"></div>#}
+											{#<div class="shop__color-picker__item shop__color-picker__item--c-blue"></div>#}
+										{#</div>#}
+										{#<div class="shop__color-picker mb-35">#}
+											{#<div class="shop__color-picker__name"><p>Выберите цвет: </p></div>#}
+											{#<label class="custom-radio custom-radio--c-black custom-radio--active">#}
+												{#<input type="radio" value="black" checked="checked" name="device-color-radio">#}
+												{#<span class="checkmark"></span>#}
+												
+									
+											{#</label>#}
+											{#<label class="custom-radio custom-radio--c-white">#}
+												{#<input type="radio" value="white" name="device-color-radio">#}
+												{#<span class="checkmark"></span>#}
+											{#</label>#}
+											{#<label class="custom-radio custom-radio--c-blue">#}
+												{#<input type="radio" value="blue" name="device-color-radio">#}
+												{#<span class="checkmark"></span>#}
+											{#</label>#}
+											
+		
+										{#</div>#}
+		
+										{#<button type="submit" class="btn-order mb-35">Купить</button>#}
+									{#</form>#}
+									{#<div class="sales-b2b">#}
+										{#<img src="img/icons/order-sale.png" alt="">#}
+										{#<div class="sales-b2b__text-wrap">#}
+											{#<a href="#">Получить скидки для партнеров#}
+												{#и корпоративных клиентов</a>#}
+										{#</div>#}
+		
+									{#</div>#}
+								{#</div>#}
+		
+							{#</div>#}
+							{% include 'partials/shop__order-block.njk' %}
+							
+		
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+</div>
+</div>
+<div class="container">
+		<div class="row device_description_padding">
+			<div class="col-lg-6">
+				<div id="tab_device_description" class=" shop__desc-section__content " >
+						<div class="shop__desc-section__text__inner-header">
+							<div class="shop__desc-sectionTitle">Описание</div>
+						</div>
+						<div class="shop__desc-section__text__inner-text">
+							<p class="shop__desc-section_textInside">Kakadu – это небольшое устройство в виде USB флешки,
+									которое хранит в зашифрованном виде логины и пароли от почты, соцсетей,
+									кошельков криптовалют, банковских сервисов и любых других приложений 
+									и самостоятельно вводит их при подключении к компьютеру или смартфону.
+							</p>
+						</div>
+					</div>
+					<div id="tab_device_documentation" class=" shop__desc-section__content" >
+								<div class="shop__desc-section__text__inner-text link_download">
+									<p><a  href="files/kakadu-manual.pdf" class="link"><img src="/img/order-gallery/pdf.jpg" alt="pdf"><span>Скачать руководство пользователя (350 kb)</span></a></p>
+									<!-- <p  class="shop_download"><img src="/img/order-gallery/program-logo-key.jpg" alt="download" class="shop_download_img"><a href="app.html">Программа Kakadu 1.0</a></p> -->
+								</div>
+						</div>
+			</div>
+			<div class="col-lg-6">
+					<div id="tab_device_specs" class=" shop__desc-section__content" >
+							<div class="shop__desc-section__text__inner-header mb-20">
+								<div class="shop__desc-sectionTitle">Характеристики:</div>
+							</div>
+							<div class="shop__desc-section__text__inner-text">
+								<div class="kakadu-desc-item">
+									<h4>Доступные цвета: 
+										<span>
+											белый, черный, синий
+										</span>
+									</h4>
+									
+								</div>
+								<div class="kakadu-desc-item">
+										<h4>
+											Размер: 
+											<span>
+												 89мм x 18мм x 11,5мм
+											</span> 
+										</h4>
+								</div>
+								<div class="kakadu-desc-item">
+									<h4>Вес: <span> 16 г</span> </h4>
+								</div>
+								<div class="kakadu-desc-item">
+										<h4>Совместимость: 
+											<span>
+												 Windows (7+), Mac (10.9+), Linux, iOS, Android
+												USB порт для подключения Kakadu
+												Дополнительных драйверов не требуется
+											</span> 
+										</h4>
+								
+								</div>
+								<div class="kakadu-desc-item">
+										<h4>Микроконтроллер: <span> ARM Cortex-M3 72MHz </span> 
+											</h4>
+								
+								</div>
+								<div class="kakadu-desc-item">
+										<h4>Память: <span> более 4000 записей (логин, пароль, URL) </span> 
+											</h4>
+								</div>
+								<div class="kakadu-desc-item">
+										<h4>Питание: <span> от USB, аккумуляторов не требуется. </span> 
+											</h4>
+								</div>
+								<div class="kakadu-desc-item">
+										<h4>Разъем: <span> USB-A </span> 
+											</h4>
+								</div>
+								<div class="kakadu-desc-item">
+										<h4>Дисплей: <span> 128x32 пикселей, монохромный 0,91’ OLED  </span> 
+											</h4>
+								</div>
+								<div class="kakadu-desc-item">
+										<h4>Ввод: <span>2 кнопки, колесо-энкодер  </span> 
+											</h4>
+								</div>
+								<div class="kakadu-desc-item">
+										<h4>Материал корпуса: <span> пластик  </span> 
+											</h4>
+								</div>
+								<div class="kakadu-desc-item">
+										<h4>Комплект поставки: <span> Аппаратный менеджер паролей «Какаду», USB удлинитель, инструкция </span> 
+											</h4>
+								</div>
+							</div>
+						</div>
+			</div>
+		</div>
+</div>
+				
+				
+				
+
+
+  {% include 'partials/wave.njk' %}
+
+  {% include 'partials/footer.njk' %}
+{% endblock %}

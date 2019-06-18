@@ -1,0 +1,136 @@
+.nav-top-item {
+  &-logo__img {
+    width: 160px;
+  }
+
+  &-lang-switch, &-btn-buy, &-share {
+    display: none;
+  }
+
+  &-btn-menu {
+
+    span {
+      display: none;
+    }
+  }
+
+  &__phone {
+    display: none;
+
+    &__icon {
+      width: 24px;
+      background-image: url('../img/nav-top/icon-phone-for-mobile.png');
+    }
+    &__text {
+      display: none;
+    }
+  }
+
+  &-btn-menu {
+    order: 1;
+  }
+}
+.masthead {
+  padding: 34px 0px;
+  width: 100%;
+
+  &-side-top {
+    margin-bottom: 0px;
+  }
+
+  &-wrap {
+    display: flex;
+    justify-content: center;
+  }
+
+  &-device-image {
+    margin-right: 20px;
+    img {
+      width: 73px;
+    }
+  }
+
+}
+.page-content__header h1 {
+	font-size: 27px;
+	font-weight: 700;
+}
+.masthead-description {
+  width: 100%;
+  &__header-wrap {
+    width: 100%;
+
+    h1 {
+      font-size: 18px;
+      font-weight: 400;
+      margin-bottom: 10px;
+    }
+  }
+  &__desc-wrap {
+    width: 100%;
+    p {
+      font-size: 14px;
+    }
+  }
+
+}
+
+.masthead-feature {
+  width: 100%;
+  margin-bottom: 10px;
+
+  &-container {
+    flex-direction: column;
+    margin: 18px 0 24px 0;
+  }
+
+  &__img-wrap {
+    img {
+      height: 30px;
+    }
+  }
+
+  &-desc {
+    padding: 0 0 0 10px;
+
+    p {
+      font-size: 11px;
+    }
+  }
+
+}
+
+.masthead-desc-bottom {
+  width: 100%;
+
+  &__accent {
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    p {
+      margin: 0;
+    }
+  }
+
+  &__desc {
+    width: 100%;
+    font-size: 14px;
+  }
+}
+
+.small-btn-buy {
+  display: none;
+}
+.big-btn-buy {
+  display: block;
+  margin-bottom: 30px;
+}
+.owl-carousel5 .owl-item img {
+  width: 100%;
+}
+.situations__item__modal__name h2 {
+	font-size: 25px;
+}
+.nav-top-item-logo__img {
+  max-width: 100%;
+}

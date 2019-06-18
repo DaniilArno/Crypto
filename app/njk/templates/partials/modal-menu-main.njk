@@ -1,0 +1,38 @@
+<!-- Menu Modal -->
+<!-- The Modal/Lightbox -->
+<div id="topMenuModal" class="modal">
+ 
+  	<div class="menu-main-top__wrap">
+		
+    {% import 'macros/close-cross.njk' as cross %}
+		{{cross.close('topMenuModal')}}
+
+    <div class="menu-main-top menu">
+			<div class="menu-main-top__item menu-main-top__title d-flex">
+				Меню
+			</div>
+				
+
+
+      <div class="menu-main-top__item menu-main-top__landing">
+				
+        <ul>
+          <li><a class="menu-main-top-link" href="/#masthead" onclick="closeModal('topMenuModal');">Описание</a></li>
+          <li><a class="menu-main-top-link" href="/#situations" onclick="closeModal('topMenuModal');">Когда пригодится</a></li>
+          <li><a class="menu-main-top-link" href="/#protect" onclick="closeModal('topMenuModal');">Безопасность</a></li>
+          <li><a class="menu-main-top-link" href="/#steps" onclick="closeModal('topMenuModal');">Первый запуск</a></li>
+          <li><a class="menu-main-top-link" href="/#design" onclick="closeModal('topMenuModal');">Дизайн</a></li>
+          <li><a class="menu-main-top-link" href="/#team" onclick="closeModal('topMenuModal');">Команда</a></li>
+        </ul>
+      </div>
+      <div class="menu-main-top__item menu-main-top__other-pages">
+        <ul>
+          <li><a href="app.html" class="menu-modal-solid">Приложение «Kakadu Manager»</a></li>
+          <li><a href="shop.html">Оформление предзаказа</a></li>
+          <li><a href="faq.html">FAQ — часто задаваемые вопросы</a></li>
+          {# <li><a href="partners.html">Предложение корпоративным клиентам и партнерам</a></li> #}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

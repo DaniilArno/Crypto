@@ -1,0 +1,86 @@
+{% extends 'base.njk' %}
+
+{% set page = "features" %}
+
+{% block content %}
+  {% include 'partials/nav-top.njk' %}
+	<div class="container-fluid">
+	<div class="container">
+	<div class="row">
+			<div class="col-12">
+				<div class="page-content__header">
+					<h1>Команда Crypto Kakadu</h1>
+				</div>
+				<div class="page-content__social  d-none d-md-block">
+          <div class="page-content__social_item page-content__social_item1 d-flex align-items-center justify-content-center" >
+            <a href="#" class="page-content__socialIcon1">
+                <i class="fas fa-share-alt"></i>
+            </a>
+          </div>
+          <div class="page-content__social_item page-content__social_item2 d-flex align-items-center  justify-content-center ">
+            <a href="#" class="page-content__socialIcon2">
+                <i class="fab fa-vk"></i>
+            </a> 
+          </div>
+          <div class="page-content__social_item page-content__social_item3 d-flex align-items-center  justify-content-center ">
+            <a href="#"  class="page-content__socialIcon3">
+                <i class="fab fa-facebook-f"></i>
+            </a>	
+          </div>
+					</div>
+			</div>
+		</div>
+	</div>
+		
+
+	</div>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="page-content w-800">
+          
+          <div class="page-content__desc">
+            <p>Kakadu – проект компании «Базовые технологии», российского разработчика и производителя потребительской и
+              специальной электроники. Наша специализация – встраиваемые системы с беспроводным управлением, умные IoT
+              устройства, аналого-цифровая аппаратура. </p>
+            <p><strong>Знакомьтесь с нашей командой. Мы увлечены инженерными разработками и отвечаем за свои продукты.</strong></p>
+          </div>
+
+          <div class="team-list">
+            <div class="team-list__item">
+              <img src="img/team/team-hardware.png" alt="">
+              <h4>Максим Шитов</h4>
+              <p>Железо и защита данных</p>
+            </div>
+            <div class="team-list__item">
+              <img src="img/team/team-design.png" alt="">
+              <h4>Василий Омелько</h4>
+              <p>Промдизайн</p>
+            </div>
+            <div class="team-list__item">
+              <img src="img/team/team-web.png" alt="">
+              <h4>Александр Шелемба</h4>
+              <p>Веб-разработка</p>
+            </div>
+            <div class="team-list__item">
+              <img src="img/team/team-software.png" alt="">
+              <h4>Александр Седов</h4>
+              <p>Программирование</p>
+            </div>
+          </div>
+
+          <div class="vacancy-block">
+            <h3>Вакансии</h3>
+            <p>Хотите работать с нами над классными устройствами <br>в сфере безопасности данных и интернета вещей?</p>
+            <p>Напишите нам на <span>career@kakadu.io</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  {% include 'partials/wave.njk' %}
+  {% include 'partials/footer.njk' %}
+
+{% endblock %}

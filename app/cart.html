@@ -1,0 +1,509 @@
+
+
+
+
+<!doctype html>
+<html lang="ru">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700&amp;subset=cyrillic" rel="stylesheet">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.min.css">
+
+
+	<!-- Owl carousel -->
+	<link rel="stylesheet" href="libs/owlcarousel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="libs/owlcarousel/assets/owl.theme.default.min.css">
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+
+	<!-- Custom css -->
+	<link rel="stylesheet" href="css/stylesheet.css">
+
+	<!-- FAVICON -->
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="img/favicon/site.webmanifest">
+	<link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico">
+	<meta name="msapplication-TileColor" content="#603cba">
+	<meta name="msapplication-config" content="img/favicon/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+	<script type="text/javascript" src="https://vk.com/js/api/openapi.js?160"></script>
+
+
+	<title></title>
+</head>
+<body>
+
+
+
+  <div class="nav-top">
+  <div class="container ">
+    <div class="row  justify-content-center">
+          <div class="col-lg-3 col-md-3 col-sm-4 col-5 gutters order-1">
+						<div class="nav-top-item nav-top-item-logo d-flex  justify-content-center">
+							<a href="/"><img src="img/logo-kakadu.png" alt="Crypto Kakadu" class="nav-top-item-logo__img "></a>
+						</div>
+					</div>
+          <div class="col-lg-1 col-md-1 col-sm-2 col-3 order-md-2 order-sm-4 order-2 gutters ">
+						<a id="menu"	href="#" onclick="openModal('topMenuModal'); return false;" class="nav-top-item nav-top-item-btn-menu d-flex justify-content-center">
+							<div class="nav-top-item-menu">
+								<img src="img/nav-top/icon-menu.png" alt="" class="nav-top-item-menuIcon">
+								<span>Меню</span>
+							</div>
+						</a>
+					</div>
+          <div class="col-lg-1 col-md-1  col-sm-2 d-none d-sm-block order-sm-3  gutters">
+						<div id="menu_share">
+							<a   href="cart.html" class="nav-top-item nav-top-item-share tooltip d-flex justify-content-center" onclick="return false;" >
+								<img src="/img/nav-top/ico_cart.png" class="nav-top-img" alt="">
+								<div id="share-tooltip" class="tooltiptext" style="display: none;">
+									<script src="//yastatic.net/share2/share.js"></script>
+									<div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,twitter"></div>
+								</div>
+							</a>
+						</div>
+					</div>
+          <div class="  col-lg-2 col-md-3 col-sm-3 col-4 order-md-6 order-sm-4 order-2 gutters d-flex justify-content-center">
+						<div class="phone__item_none">
+							<a href="callto:+7 499 938 50 01" class="nav-top-item nav-top-item__phone  phone_none d-flex justify-content-center">
+								
+								<span>
+									+7 499 938-50-01
+									<br>
+									<span class="nav-top-itemSchedule">c 9:00 до 19:00</span>
+								</span>
+							</a>
+						</div>
+						<!-- <div class=" col-2 ">
+								<a href="callto:+7 495 740-30-69" class="nav-top-item nav-top-item__phone2  d-flex justify-content-center ">
+										<img src="/img/nav-top/mobile.png" alt="" class="">
+										<span class="nav-top-item__phone__text2  phone_none2">
+										 +7 495 740-30-69 
+										</span>
+									</a>
+						</div> -->
+						
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-3 col-sm-4  order-sm-4   d-none d-lg-block gutters">
+							<div  class="btn_top">
+									<a  	class="  nav-top-item  nav-top-item-border d-flex justify-content-center" href="files/kakadu-setup.exe" role="button">
+													<span>Скачать программу</span>
+									</a>
+							</div>
+							
+						</div>
+		
+					<div class=" col-lg-3 col-md-3 col-sm-4 col-3 d-sm-none d-md-block order-sm-5    d-none d-md-block gutters">
+						<div id="btn_top" class="btn_top">
+								<a  id="btn_top_link"	class="  nav-top-item nav-top-item-download btn2 btn-simple  d-flex justify-content-center" href="shop.html" role="button">
+												<span>Выбрать цвет и купить</span>
+										
+								</a>
+						</div>
+					</div>
+    </div>
+  </div>
+</div>
+<!-- Menu Modal -->
+<!-- The Modal/Lightbox -->
+<div id="topMenuModal" class="modal">
+ 
+  	<div class="menu-main-top__wrap">
+		
+    
+		
+	<a href="#" class="close-cross" onclick="closeModal('topMenuModal'); return false;"></a>
+
+
+    <div class="menu-main-top menu">
+			<div class="menu-main-top__item menu-main-top__title d-flex">
+				Меню
+			</div>
+				
+
+
+      <div class="menu-main-top__item menu-main-top__landing">
+				
+        <ul>
+          <li><a class="menu-main-top-link" href="/#masthead" onclick="closeModal('topMenuModal');">Описание</a></li>
+          <li><a class="menu-main-top-link" href="/#situations" onclick="closeModal('topMenuModal');">Когда пригодится</a></li>
+          <li><a class="menu-main-top-link" href="/#protect" onclick="closeModal('topMenuModal');">Безопасность</a></li>
+          <li><a class="menu-main-top-link" href="/#steps" onclick="closeModal('topMenuModal');">Первый запуск</a></li>
+          <li><a class="menu-main-top-link" href="/#design" onclick="closeModal('topMenuModal');">Дизайн</a></li>
+          <li><a class="menu-main-top-link" href="/#team" onclick="closeModal('topMenuModal');">Команда</a></li>
+        </ul>
+      </div>
+      <div class="menu-main-top__item menu-main-top__other-pages">
+        <ul>
+          <li><a href="app.html" class="menu-modal-solid">Приложение «Kakadu Manager»</a></li>
+          <li><a href="shop.html">Оформление предзаказа</a></li>
+          <li><a href="faq.html">FAQ — часто задаваемые вопросы</a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+	<div class="container-fluid">
+	<div class="container">
+	<div class="row">
+			<div class="col-12">
+				<div class="page-content__header">
+					<h1>Корзина с товарами</h1>
+				</div>
+				<div class="page-content__social  page-content__social_Cart d-none d-md-block align-items-center">
+					<div class="page-content__social_item page-content__social_item1 d-flex align-items-center justify-content-center" >
+						<a href="#" class="page-content__socialIcon1">
+								<i class="fas fa-share-alt"></i>
+						</a>
+					</div>
+					<div class="page-content__social_item page-content__social_item2 d-flex align-items-center  justify-content-center ">
+						<a href="#" class="page-content__socialIcon2">
+								<i class="fab fa-vk"></i>
+						</a> 
+					</div>
+					<div class="page-content__social_item page-content__social_item3 d-flex align-items-center  justify-content-center ">
+						<a href="#"  class="page-content__socialIcon3">
+								<i class="fab fa-facebook-f"></i>
+						</a>	
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		
+
+	</div>
+	<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="page-content">
+						<div class="page-content__desc">
+							<div class="shop__main-section">
+								<div class="shop__product-gallery shop__product-gallery-cart">
+								<!-- <div class="col-13"> -->
+									<div class="row no-gutters">
+									
+										<div class=" col-3  align-self-center">
+											<div class="shop__product-gallery_img">
+												<img src="/img/order-gallery/Device-kakadu.png" alt="">
+											</div>
+										</div>
+										<div class="col-4 col-md-4 align-self-center">
+											<div class="shop__product-gallery_description ">
+												USB устройство <br>
+												Crypto Kakadu, Белый
+											</div>
+										</div>
+										<div class="col-2  align-self-center">
+											<div class="shop__product-gallery_totalPrice d-flex justify-content-center">
+												<div class="shop__product-gallery_counter">
+													<img src="/img/order-gallery/counter.png" alt="">
+												<div class="shop__product-gallery_counterBtn">
+											<div class="shop__product-gallery_btnItem shop__product-gallery_btnItem1">
+											<a href="#">
+													<i class="fas fa-sm fa-minus"></i>
+											</a>
+										</div>
+										<div class="shop__product-gallery_btnItem shop__product-gallery_btnItem2">
+											2
+										</div>
+										<div class="shop__product-gallery_btnItem shop__product-gallery_btnItem3">
+											<a href="#">
+													<i class="fas  fa-sm fa-plus"></i>
+											</a>
+										</div>
+									</div>
+										<div class="shop__product-gallery_counterText">
+											3900 ₽/шт
+										</div>
+									</div>
+										
+									</div>
+								</div>
+								<div class="col-2  align-self-center">
+									<div class="shop__product-gallery_totalPrice d-flex justify-content-center">
+										7800 ₽
+									</div>
+								</div>
+								<div class="col-1  align-self-center">
+									<div class="shop__product-gallery_close">
+											<i class="far fa-lg fa-times-circle"></i>
+									</div>
+								</div>
+								
+							</div>
+							
+							
+							
+				<!-- </div> -->
+						</div>
+						<div class="shop__product-gallery shop__product-gallery-cart">
+								<div class="row no-gutters">
+									<div class="col-3  align-self-center">
+										<div class="shop__product-gallery_img">
+											<img src="/img/order-gallery/device-kakaduu.png" alt="">
+										</div>
+									</div>
+								<div class="col-4 col-sm-4 align-self-center">
+								<div class="shop__product-gallery_description ">
+									USB устройство <br>
+									Crypto Kakadu, Белый
+								</div>
+							</div>
+							<div class="col-sm-2 col-2 align-self-center">
+								<div class="shop__product-gallery_totalPrice d-flex justify-content-center">
+								<div class="shop__product-gallery_counter">
+									<img src="/img/order-gallery/counter.png" alt="">
+									<div class="shop__product-gallery_counterBtn">
+										<div class="shop__product-gallery_btnItem shop__product-gallery_btnItem1  ">
+												<a href="#">
+														<i class="fas fa-sm fa-minus"></i>
+												</a>
+										</div>
+										<div class="shop__product-gallery_btnItem shop__product-gallery_btnItem2 ">
+											2
+										</div>
+										<div class="shop__product-gallery_btnItem shop__product-gallery_btnItem3 ">
+											<a href="#">
+													<i class="fas  fa-sm fa-plus"></i>
+											</a>
+										</div>
+									</div>
+									<div class="shop__product-gallery_counterText">
+										3900 ₽/шт
+									</div>
+								</div>
+									
+								</div>
+							</div>
+							<div class="col-2  align-self-center">
+								<div class="shop__product-gallery_totalPrice d-flex justify-content-center">
+									7800 ₽
+								</div>
+							</div>
+							<div class="col-1  align-self-center">
+								<div class="shop__product-gallery_close">
+										<i class="far fa-lg fa-times-circle"></i>
+								</div>
+							</div>
+							
+						</div>
+						
+						
+						
+					
+					</div>
+					
+							
+								
+									
+									
+										
+											
+											
+												
+												
+													
+													
+												
+											
+										
+	
+	
+									
+									
+										
+										
+										
+										
+	
+										
+										
+									
+									
+										
+										
+											
+											
+											
+								
+										
+										
+											
+											
+										
+										
+											
+											
+										
+										
+	
+									
+	
+									
+								
+								
+									
+									
+										
+											
+									
+	
+								
+							
+	
+						
+						<div class="shop__order-block shop__order-block-cart">
+  <form action="#">
+    <p class="fz-14 m-0 lh-1">
+			<b>Итого:</b> 
+			<span class="shop__order-block_quantityItem">
+				<span class="shop__order-block_gray">3 товара </span> х 3900 ₽</span>
+			<span id="price_for_one" style="display: none;">3900</span>
+		</p>
+		<div class="row">
+			<div class="col">
+					<div class="shop__order-block-totalPrice">
+						11 700 <span>₽</span>
+					</div>
+			</div>
+		</div>
+    <a href="order.html" class="btn-order-link btn-order-linkCart btn-order-link-buy"><span>Оформить заказ</span></a>
+
+	</form>
+	
+</div>
+						
+						<div class="container">
+							<div class="row ">
+								<div class="col ">
+									
+									<div class="cartLinktoShop">
+											<img src="/img/arrow-left-thin.png" alt="">
+										<a href="shop.html">
+											К странице с товаром
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+								
+	
+							</div>
+						</div>
+	
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+
+
+  <div class="wave"></div>
+  <footer>
+
+	<div class="container-fluid bg_footer">
+							<div class="hr">
+						</div>
+	<div class="container ">
+		<div class="row ">
+			<div class="col-12  d-flex justify-content-center">
+				<div class="footerTop ">
+					
+					<div class="footerTop_title ">
+						<img src="/img/geek.png" alt="" class="footerTop_img">
+						Подпишитесь на нас в социальных сетях 
+					</div>
+					<div class="footerTop_description">
+						Читайте полезные статьи в области безопасности и IT
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row justify-content-center ">
+			<div class="col-8">
+					<div class=" footer__socialBlock footer__socialBlock1">
+						<div id="vk_groups2">
+
+						</div>
+					</div>
+				</div>
+		</div>
+	</div>
+</div>
+
+	<div class="container-fluid">
+		<div class="container">
+		<div class="row no-gutters">
+			<div class="col">
+        <div class="section footer">
+          <div class="footer__content-wrap  d-flex justify-content-sm-center">
+            <div class="footer__content-wrap__item footer__name">
+              <h4>CRYPTO KAKADU 2018</h4>
+            </div>
+            <div class="footer__content-wrap__item footer__menu  d-flex justify-content-sm-center justify-content-start">
+              <ul>
+                <li><a href="partners.html">Предложение корпоративным клиентам и партнерам</a></li>
+                <li><a href="shop.html">Оформление предзаказа</a></li>
+                <li><a href="faq.html">FAQ — часто задаваемые вопросы</a></li>
+              </ul>
+            </div>
+            <div class="footer__content-wrap__item footer__about  d-flex justify-content-sm-center justify-content-start">
+              <div class="footer__about_center ">
+								<h4>Разработчик и изготовитель</h4>
+								<p>ООО «Базовые технологии» <br>
+									ОГРН 1147748017317 <br>
+									ИНН 7731487174</p>
+							</div>
+            </div>
+            <div class="footer__content-wrap__item footer__contacts  d-flex justify-content-sm-center justify-content-start">
+              <div class="footer__contacts_center">
+								<h4>Электронная почта:</h4>
+								<p>hello@kakadu.io</p>
+							</div>
+            </div>
+          </div>
+        </div>
+
+			</div>
+		</div>
+		</div>
+	</div>
+</footer>
+<script type="text/javascript">
+	VK.Widgets.Group("vk_groups1", {mode: 4, wide: 1, no_cover: 1, width: "auto", height: "270"}, 172944070);
+</script>
+<script type="text/javascript">
+	VK.Widgets.Group("vk_groups2", {mode: 4, wide: 1, no_cover: 1, width: "auto", height: "270"}, 172944070);
+</script>
+	
+
+
+
+
+<!-- jQuery -->
+<script src="libs/jquery/jquery.min.js"></script>
+
+<!-- Owl carousel -->
+<script src="libs/owlcarousel/owl.carousel.min.js"></script>
+
+<!-- custom -->
+<script src="js/main.js"></script>
+
+
+</body>
+</html>

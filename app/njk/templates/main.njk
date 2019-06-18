@@ -1,0 +1,27 @@
+{% set company = "My random company" %}
+{% if not(title) %}
+{% set title = "Default title" %}
+{% endif %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>{{ title }}</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+{% include "partials/header.njk" %}
+<div class="container">
+	<div class="row">
+		{% block content %}{% endblock %}
+	</div>
+</div>
+{% include "partials/footer.njk" %}
+<script type="text/javascript" src="bower_components/jquery/jquery-2.2.2.min.js"></script>
+<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

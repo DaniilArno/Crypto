@@ -1,0 +1,24 @@
+{% extends 'base.njk' %}
+
+{% set page = "index" %}
+
+{% block content %}
+
+  {% include 'partials/nav-top.njk' %}
+  {#{% include 'partials/modal-menu-main.njk' %}#}
+  {% include 'partials/masthead.njk' %}
+  {% include 'partials/feature-main-grid.njk' %}
+  {% include 'partials/feature-small-grid.njk' %}
+  {% include 'partials/wave.njk' %}
+  {% include 'partials/situations.njk' %}
+  {% include 'partials/modal-situations.njk' %}
+  {#{% include 'partials/button-close-cross.njk' %}#}
+  {#{% include 'partials/situations__item.njk' %}#}
+  {% include 'partials/protect.njk' %}
+  {% include 'partials/steps.njk' %}
+  {% include 'partials/design.njk' %}
+  {% include 'partials/team_section.njk' %}
+  {% include 'partials/wave.njk' %}
+  {% include 'partials/footer.njk' %}
+
+{% endblock %}

@@ -1,0 +1,62 @@
+{% extends 'base.njk' %}
+
+{% set page = "app" %}
+
+{% block content %}
+  {% include 'partials/nav-top.njk' %}
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="page-content">
+          <div class="page-content__header ">
+            <h1>Скачать программу Crypto Kakadu</h1>
+          </div>
+          <div class="software-version">
+            <h4>Версия 1.0</h4>
+          </div>
+        <div class="page-content__social  page-content__social_Cart d-none d-md-block align-items-center">
+					<div class="page-content__social_item page-content__social_item1 d-flex align-items-center justify-content-center" >
+						<a href="#" class="page-content__socialIcon1">
+								<i class="fas fa-share-alt"></i>
+						</a>
+					</div>
+					<div class="page-content__social_item page-content__social_item2 d-flex align-items-center  justify-content-center ">
+						<a href="#" class="page-content__socialIcon2">
+								<i class="fab fa-vk"></i>
+						</a> 
+					</div>
+					<div class="page-content__social_item page-content__social_item3 d-flex align-items-center  justify-content-center ">
+						<a href="#"  class="page-content__socialIcon3">
+								<i class="fab fa-facebook-f"></i>
+						</a>	
+					</div>
+				</div>
+          <div class="page-content__desc">
+            <div class="software-download-button-container">
+              <div class="software-download-button">
+                <div class="software-download-button__img">
+                  <img src="img/software/icon-os-mac.png" alt="">
+                  <h4>Mac OS</h4>
+                  <p>Для версий Mac OS X 10.7 и позднее</p>
+                  <a href="files/kakadu-1.0.dmg">Скачать</a>
+                </div>
+              </div>
+              <div class="software-download-button">
+                <div class="software-download-button__img">
+                  <img src="img/software/icon-os-windows.png" alt="">
+                  <h4>Windows</h4>
+                  <p>Для версий Windows 7 <br> и позднее</p>
+                  <a href="files/kakadu-setup.exe">Скачать</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {% include 'partials/footer.njk' %}
+
+{% endblock %}

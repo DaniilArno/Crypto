@@ -1,0 +1,810 @@
+
+
+
+
+<!doctype html>
+<html lang="ru">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700&amp;subset=cyrillic" rel="stylesheet">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.min.css">
+
+
+	<!-- Owl carousel -->
+	<link rel="stylesheet" href="libs/owlcarousel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="libs/owlcarousel/assets/owl.theme.default.min.css">
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+
+	<!-- Custom css -->
+	<link rel="stylesheet" href="css/stylesheet.css">
+
+	<!-- FAVICON -->
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="img/favicon/site.webmanifest">
+	<link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico">
+	<meta name="msapplication-TileColor" content="#603cba">
+	<meta name="msapplication-config" content="img/favicon/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+	<script type="text/javascript" src="https://vk.com/js/api/openapi.js?160"></script>
+
+
+	<title></title>
+</head>
+<body>
+
+
+
+
+  <div class="nav-top">
+  <div class="container ">
+    <div class="row  justify-content-center">
+          <div class="col-lg-3 col-md-3 col-sm-4 col-5 gutters order-1">
+						<div class="nav-top-item nav-top-item-logo d-flex  justify-content-center">
+							<a href="/"><img src="img/logo-kakadu.png" alt="Crypto Kakadu" class="nav-top-item-logo__img "></a>
+						</div>
+					</div>
+          <div class="col-lg-1 col-md-1 col-sm-2 col-3 order-md-2 order-sm-4 order-2 gutters ">
+						<a id="menu"	href="#" onclick="openModal('topMenuModal'); return false;" class="nav-top-item nav-top-item-btn-menu d-flex justify-content-center">
+							<div class="nav-top-item-menu">
+								<img src="img/nav-top/icon-menu.png" alt="" class="nav-top-item-menuIcon">
+								<span>Меню</span>
+							</div>
+						</a>
+					</div>
+          <div class="col-lg-1 col-md-1  col-sm-2 d-none d-sm-block order-sm-3  gutters">
+						<div id="menu_share">
+							<a   href="cart.html" class="nav-top-item nav-top-item-share tooltip d-flex justify-content-center" onclick="return false;" >
+								<img src="/img/nav-top/ico_cart.png" class="nav-top-img" alt="">
+								<div id="share-tooltip" class="tooltiptext" style="display: none;">
+									<script src="//yastatic.net/share2/share.js"></script>
+									<div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,twitter"></div>
+								</div>
+							</a>
+						</div>
+					</div>
+          <div class="  col-lg-2 col-md-3 col-sm-3 col-4 order-md-6 order-sm-4 order-2 gutters d-flex justify-content-center">
+						<div class="phone__item_none">
+							<a href="callto:+7 499 938 50 01" class="nav-top-item nav-top-item__phone  phone_none d-flex justify-content-center">
+								
+								<span>
+									+7 499 938-50-01
+									<br>
+									<span class="nav-top-itemSchedule">c 9:00 до 19:00</span>
+								</span>
+							</a>
+						</div>
+						<!-- <div class=" col-2 ">
+								<a href="callto:+7 495 740-30-69" class="nav-top-item nav-top-item__phone2  d-flex justify-content-center ">
+										<img src="/img/nav-top/mobile.png" alt="" class="">
+										<span class="nav-top-item__phone__text2  phone_none2">
+										 +7 495 740-30-69 
+										</span>
+									</a>
+						</div> -->
+						
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-3 col-sm-4  order-sm-4   d-none d-lg-block gutters">
+							<div  class="btn_top">
+									<a  	class="  nav-top-item  nav-top-item-border d-flex justify-content-center" href="files/kakadu-setup.exe" role="button">
+													<span>Скачать программу</span>
+									</a>
+							</div>
+							
+						</div>
+		
+					<div class=" col-lg-3 col-md-3 col-sm-4 col-3 d-sm-none d-md-block order-sm-5    d-none d-md-block gutters">
+						<div id="btn_top" class="btn_top">
+								<a  id="btn_top_link"	class="  nav-top-item nav-top-item-download btn2 btn-simple  d-flex justify-content-center" href="shop.html" role="button">
+												<span>Выбрать цвет и купить</span>
+										
+								</a>
+						</div>
+					</div>
+    </div>
+  </div>
+</div>
+<!-- Menu Modal -->
+<!-- The Modal/Lightbox -->
+<div id="topMenuModal" class="modal">
+ 
+  	<div class="menu-main-top__wrap">
+		
+    
+		
+	<a href="#" class="close-cross" onclick="closeModal('topMenuModal'); return false;"></a>
+
+
+    <div class="menu-main-top menu">
+			<div class="menu-main-top__item menu-main-top__title d-flex">
+				Меню
+			</div>
+				
+
+
+      <div class="menu-main-top__item menu-main-top__landing">
+				
+        <ul>
+          <li><a class="menu-main-top-link" href="/#masthead" onclick="closeModal('topMenuModal');">Описание</a></li>
+          <li><a class="menu-main-top-link" href="/#situations" onclick="closeModal('topMenuModal');">Когда пригодится</a></li>
+          <li><a class="menu-main-top-link" href="/#protect" onclick="closeModal('topMenuModal');">Безопасность</a></li>
+          <li><a class="menu-main-top-link" href="/#steps" onclick="closeModal('topMenuModal');">Первый запуск</a></li>
+          <li><a class="menu-main-top-link" href="/#design" onclick="closeModal('topMenuModal');">Дизайн</a></li>
+          <li><a class="menu-main-top-link" href="/#team" onclick="closeModal('topMenuModal');">Команда</a></li>
+        </ul>
+      </div>
+      <div class="menu-main-top__item menu-main-top__other-pages">
+        <ul>
+          <li><a href="app.html" class="menu-modal-solid">Приложение «Kakadu Manager»</a></li>
+          <li><a href="shop.html">Оформление предзаказа</a></li>
+          <li><a href="faq.html">FAQ — часто задаваемые вопросы</a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  
+  <div class="container-fluid bg-masthead">
+	<div class="container ">
+		<div class="row">
+			<div class="col">
+				<div  class="masthead">
+					
+					<div class="masthead-side-top">
+						<div class="masthead-device-image">
+							<img src="img/masthead/kakadunew.png" alt="" class="responsive">
+						</div>
+						<div class="masthead-description">
+							<div class="masthead-description__header-wrap">
+								<h1>Crypto Kakadu — устройство <br> 
+								для безопасного хранения и ввода данных</h1>
+							</div>
+							<div class="masthead-description__header-wrap ">
+								<h1 class="masthead-description-price">2900 рублей</h1>
+							</div>
+
+							<div class="masthead-feature-container">
+								<div class="masthead-feature">
+									<div class="masthead-feature__img-wrap">
+										<img src="/img/starr.png" alt="">
+									</div>
+									<div class="masthead-feature-desc">
+										<p>Заменяет облачные сервисы, блокнот и клавиатуру.</p>
+									</div>
+								</div>
+								<div class="masthead-feature">
+									<div class="masthead-feature__img-wrap">
+										<img src="/img/no-inet.png" alt="">
+									</div>
+									<div class="masthead-feature-desc">
+										<p>Всегда под рукой и не требует доступа к интернету.</p>
+									</div>
+								</div>
+							</div>
+							<div>
+								<div>
+										<a href="shop.html" class="btn  btn-accent btn-accent1">
+												Купить
+											</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+  
+<div class="container-fluid  no-gutters">
+	<div class="row">
+
+		<div class="col-md-6 red">
+				<div class="col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1">
+					<div class="feature-grid__row-block">
+						<div class="feature-grid__row-block__inner">
+							<div class="feature-grid__row-block__inner__icon-wrapper">
+								<img src="img/icons/icon-bug.png" alt="">
+							</div>
+							<h4>Работа с облачными сервисами <br>полна опасности</h4>
+							<p>Данные, хранящиеся в интернете, можно скопировать и украсть. Онлайн-сервисы хранения паролей можно взломать, отключить сервера, закрыть без предупреждения, их невозможно использовать без интернета. Это небезопасно для ваших данных.</p>
+						</div>
+					</div>
+				</div>
+		</div>
+		<div class="col-md-6 green">
+					<div class="col-lg-10 offset-lg-1 col-md-10 offset-md-1  col-sm-10 offset-sm-1">
+						<div class="feature-grid__row-block feature-grid__row-block--right">
+								<div class="feature-grid__row-block__inner feature-grid__row-block__inner--right">
+									<div class="feature-grid__row-block__inner__icon-wrapper feature-grid__row-block__inner__icon-wrapper--right">
+										<img src="img/icons/icon-ok.png" alt="">
+									</div>
+									<h4>Храните данные <br>офлайн</h4>
+									<p>Храните важные данные офлайн на флешке Какаду. Какаду – самый безопасный способ хранения и передачи паролей. Это защищенное физическое устройство, которое нельзя взломать через интернет или зараженный компьютер.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+		</div>
+		
+	</div>
+</div>
+			
+
+
+
+
+  <div class="container-fluid bg-blue">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div id="features" class="section features">
+          <div class="features__header">
+            <h2>Возможности Крипто Какаду</h2>
+          </div>
+          <div class="features-wrap">
+            <div class="features__item">
+              <div class="features__item__img">
+                <img src="img/icons/icon-features-star-gray.png" alt="" class="">
+              </div>
+              <p>Автоматический <br> ввод паролей</p>
+            </div>
+            <div class="features__item">
+              <div class="features__item__img">
+                <img src="img/icons/icon-features-charge-gray.png" alt="" class="">
+              </div>
+              <p>Не требует зарядки, <br> питание через USB</p>
+            </div>
+            <div class="features__item">
+              <div class="features__item__img">
+                <img src="img/icons/icon-features-without-internet-gray.png" alt="" class="">
+              </div>
+              <p>Не требует подключения к интернету</p>
+            </div>
+            <div class="features__item">
+              <div class="features__item__img">
+                <img src="img/icons/icon-features-remember-gray.png" alt="" class="">
+              </div>
+              <p>Достаточно помнить только один PIN-код</p>
+            </div>
+            <div class="features__item">
+              <div class="features__item__img">
+                <img src="img/icons/icon-features-backup-gray.png" alt="" class="">
+              </div>
+              <p>Защищенные резервные копии</p>
+            </div>
+            <div class="features__item">
+              <div class="features__item__img">
+                <img src="img/icons/icon-features-devices-gray.png" alt="" class="">
+              </div>
+              <p>Совместим с любыми устройствами</p>
+            </div>
+          </div>
+          <a href="features.html" class="btn btn-accent btn-accent3">Подробнее</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="wave"></div>
+  <div class="container-fluid">
+  <div class="row justify-content-center">
+    <div class="col">
+      <div id="situations" class="situations">
+				<div class="row justify-content-center">
+					<div class="col-lg-10 col-12">
+						<div class="situations__header">
+							<h2>В каких ситуациях пригодится</h2>
+						</div>
+					</div>
+					
+				 <div class="col-xl-6 col-lg-8 col-9 d-flex justify-content-center">
+						<div class="situations__desc">
+							<div class="situations__desc_wrap">
+								<p>Какаду – это переносной сейф, который всегда будет с вами, сохранит ценную информацию от потери или кражи и сам введет пароли в нужные формы, защитив их от любопытных глаз.</p>
+							</div>
+						</div>
+				 </div>
+				</div>
+        
+
+        <div class="situations_wrap">
+
+          <div class="situations__item situations__item_left">
+            <div class="situations__item__img-wrap  situations__item__img-wrap1 menu">
+              <a id="situation_img"	href="#" onclick="openModal('Modal_Usage_Daily'); return false;"><img src="img/situations/usage-daily.png" alt="" class="responsive radius-border"></a>
+							<div class="situations__item__name situations__item__name1 menu">
+              <a id="situation_img_action" href="#" onclick="openModal('Modal_Usage_Daily'); return false;">Повседневное использование</a>
+            </div>
+            <div class="situations__item__desc">
+              <p>Безопасно храните и вводите данные банковских карт, пароли от соцсетей и электронной почты</p>
+            </div>
+						
+						</div>
+            
+          </div>
+
+          <div class="situations__item  situations__item_right">
+            <div class="situations__item__img-wrap  situations__item__img-wrap2 menu">
+              <a href="#" onclick="openModal('Modal_Usage_Geek'); return false;"><img src="img/situations/usage-geek.png" alt="" class="responsive radius-border"></a>
+							 <div class="situations__item__name situations__item__name2 menu">
+              <a href="#" onclick="openModal('Modal_Usage_Geek'); return false;">Крутой технологичный подарок</a>
+							</div>
+							<div class="situations__item__desc">
+								<p>Подарите вашему другу-гику что-то действительно полезное и необычное</p>
+							</div>
+						</div>
+           
+          </div>
+
+          <div class="situations__item  situations__item_left">
+            <div class="situations__item__img-wrap  situations__item__img-wrap3 menu">
+
+              <a href="#" onclick="openModal('Modal_Usage_Business'); return false;"><img src="img/situations/usage-business.png" alt="" class="responsive radius-border"></a>
+							 <div class="situations__item__name situations__item__name3 menu">
+              <a href="#" onclick="openModal('Modal_Usage_Business'); return false;">Инструмент для бизнеса</a>
+							</div>
+							<div class="situations__item__desc">
+								<p>Безопасно храните и передавайте корпоративные данные</p>
+							</div>
+						</div>
+           
+          </div>
+
+          <div class="situations__item  situations__item_right">
+            <div class="situations__item__img-wrap  situations__item__img-wrap4 menu">
+              <a href="#" onclick="openModal('Modal_Usage_Digital'); return false;"><img src="img/situations/usage-digital.png" alt="" class="responsive radius-border"></a>
+							 <div class="situations__item__name situations__item__name4 menu">
+              <a href="#" onclick="openModal('Modal_Usage_Digital'); return false;">Помощник digital-маркетолога</a>
+            </div>
+            <div class="situations__item__desc">
+              <p>Быстро переключайтесь между аккаунтами и компьютерами</p>
+            </div>
+						</div>
+           
+          </div>
+
+
+
+        </div>
+			</div>
+			
+      
+			
+    </div>
+  </div>
+  
+</div>
+  <!-- Modal_Usage_Daily -->
+<div id="Modal_Usage_Daily" class="situations__item__modal__bg">
+  <div class="situations__item__modal situations__item__modal1">
+    
+    
+	<a href="#" class="close-cross" onclick="closeModal('Modal_Usage_Daily'); return false;"></a>
+
+    <div class="situations__item__modal__image ">
+      <img src="/img/situations/lady.jpg" alt="">
+    </div>
+    <div class="situations__item__modal__wrap">
+      <div class="situations__item__modal__name">
+        <h2>Повседневное использование</h2>
+      </div>
+      <div class="situations__item__modal__text">
+        <p>Какаду – это стильный и полезный гаджет для любого пользователя интернета. Какаду надежно сохранит и самостоятельно введет аутентификационные данные в ВКонтакте, Одноклассники, Facebook, Twitter, электронную почту, YouTube и любые другие приложения, которыми мы пользуемся каждый день.</p>
+        <p>На Какаду можно зашифрованно хранить данные своих банковских карт – номер, дату, cvv код – и безопасно вводить их в моменты оплаты. Это намного надежнее автосохранения в браузере или постоянного вбивания данных вручную при каждой покупке, когда их могут перехватить, подглядеть, а карту вырвать из рук.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal_Usage_Geek -->
+<div id="Modal_Usage_Geek" class="situations__item__modal__bg">
+  <div class="situations__item__modal">
+    
+    
+	<a href="#" class="close-cross" onclick="closeModal('Modal_Usage_Geek'); return false;"></a>
+
+    <div class="situations__item__modal__image">
+      <img src="img/situations/man.jpg" alt="">
+    </div>
+    <div class="situations__item__modal__wrap">
+      <div class="situations__item__modal__name">
+        <h2>Крутой технологичный подарок</h2>
+      </div>
+      <div class="situations__item__modal__text">
+        <p>В век постоянных утечек данных и взломов любых облачных сервисов настоящий айтишник или технарь будет рад надежной «железке» с передовыми алгоритмами безопасности, которая не только защитит его данные, но и будет элегантным гаджетом, который приятно использовать и носить с собой.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal_Usage_Business -->
+<div id="Modal_Usage_Business" class="situations__item__modal__bg">
+  <div class="situations__item__modal">
+    
+    
+	<a href="#" class="close-cross" onclick="closeModal('Modal_Usage_Business'); return false;"></a>
+
+    <div class="situations__item__modal__image">
+      <img src="/img/situations/cowork.jpg" alt="">
+    </div>
+    <div class="situations__item__modal__wrap">
+      <div class="situations__item__modal__name">
+        <h2>Инструмент для бизнеса</h2>
+      </div>
+      <div class="situations__item__modal__text">
+        <p>Какаду поможет, если вы часто имеете дело с информацией, имеющую высокую корпоративную или личную ценность и заинтересованы в ее безопасном хранении и возможной передаче другим лицам. Такие сведения небезопасно передавать или хранить в открытом виде. С крипто-флешкой Какаду вы можете быть уверенным в безопасности передаваемых данных.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal_Usage_Digital -->
+<div id="Modal_Usage_Digital" class="situations__item__modal__bg">
+  <div class="situations__item__modal">
+    
+    
+	<a href="#" class="close-cross" onclick="closeModal('Modal_Usage_Digital'); return false;"></a>
+
+    <div class="situations__item__modal__image">
+      <img src="/img/situations/sitiation.jpg" alt="">
+    </div>
+    <div class="situations__item__modal__wrap">
+      <div class="situations__item__modal__name">
+        <h2>Помощник digital-маркетолога</h2>
+      </div>
+      <div class="situations__item__modal__text">
+        <p>Быстро и безопасно перелогинивайтесь между своими интернет-магазинами, группами в соцсетях или аккаунтами в инстаграме. Презентация проекта заказчику, командировка в филиалы или неожиданный фриланс на отдыхе – Какаду всегда будет рядом со всеми важными данными для работы.</p>
+        <p>Аппаратный менеджер паролей – отличное решение, когда приходится выполнять работу или заходить в личные сервисы на сторонних устройствах, особенно если нет возможности выйти в интернет.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+  
+  
+  <div class="protect__wrap bg-blue">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div id="protect" class="section protect">
+          <div class="section__image">
+            <img src="img/icons/icon-features-safe-big.png" alt="" class="responsive">
+          </div>
+          <div class="section__header protect__header">
+            <h2 class="section-header">Надежные алгоритмы безопасности</h2>
+          </div>
+          <div class="section__desc protect__desc">
+            <p>Алгоритмы шифрования и защиты данных в Какаду разработаны и протестированы экспертами в области защиты данных. </p>
+            <p>Какаду не передаст информацию сторонним лицам даже если его попытаются взломать, заразить вирусом, украдут или вы случайно его потеряете.</p>
+          </div>
+          <a href="protect.html" class="btn btn-accent btn-accent2">Подробнее</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <div id="steps" class="steps">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+				<h2 class="">От первой записи до входа: 4 шага</h2>
+				<div class="col-10 offset-1 ">
+					<p>Настройка для аутентификации через Какаду не займет много времени, зато заметно облегчит работу.</p>
+				</div>
+        
+      </div>
+    </div>
+    <div class="row">
+      <div class="col offset-md-3 col-md-6">
+        <div class="container slider-container">
+          <div class="row no-gutters">
+            <div class="col-3 col-md-3">
+              <div class="counter-wrap">
+                <div class="number">
+                  <span id="slider-nav-number" class="counter"></span>
+                </div>
+                <div id="owlCustomControls" class="slider-container-controls">
+                  <div id="slider-nav-prev" class="control control-left">
+											<i class="far fa-lg  fa-arrow-alt-circle-left"></i>
+                  </div>
+                  <div id="slider-nav-next" class="control control-right">
+											<i class="far fa-lg  fa-arrow-alt-circle-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-9 col-md-9">
+              <div class="slider-content">
+                <div class="owl-carousel">
+                  <div class="div steps-item">
+                    <img src="img/steps_slider/step_01.png" alt="" class="responsive">
+                    <h4>Запишите пароли <br> на Какаду</h4>
+                    <p><a href="app.html" class="accent-link">Скачайте</a> на компьютер приложение Kakadu Manager для
+                      первой настройки устройства. C помощью удобного интерфейса установите единый PIN-код доступа,
+                      запишите на устройство имеющиеся пароли или сгенерируйте надежные новые пароли.</p>
+                    <div class="link-wrap">
+                      <i class="far fa-lg  fa-arrow-alt-circle-right"></i>
+                      <a href="/files/kakadu-manual.pdf" class="text-link">Как работать в Kakadu Manager</a>
+                    </div>
+                  </div>
+
+                  <div class="div">
+                    <img src="img/steps_slider/step_02.png" alt="">
+                    <h4>Подключите Какаду к компьютеру или смартфону</h4>
+                    <p>Подключите Какаду через USB к компьютеру, ноутбуку, смартфону или планшету. Устройство определит
+                      Какаду как стандартную клавиатуру. Дополнительных драйверов не нужно.</p>
+                  </div>
+
+                  <div class="div">
+                    <img src="img/steps_slider/step_03.png" alt="">
+                    <h4>Разблокируйте Какаду, введя PIN</h4>
+                    <p>PIN гарантирует, что злоумышленник не сможет разблокировать устройство. После 5 неудачных попыток
+                      ввода устройство блокируется, после 15 неудачных попыток происходит полное стирание памяти
+                      устройства.</p>
+                  </div>
+
+                  <div class="div">
+                    <img src="img/steps_slider/step_04.png" alt="">
+                    <h4>Вводите нужные данные</h4>
+                    <p>Зайдите на сайт или в приложение, где требуется ввод логина и пароля. Нажмите пару кнопок на
+                      устройстве, и Какаду сам введет нужные данные за вас. Готово!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="design__wrap">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div id="design" class="section design">
+          <div class="section__header">
+            <h2>Простой дизайн: ничего лишнего</h2>
+          </div>
+					<div class="row justify-content-center">
+						<div class="col-lg-7 col-md-10">
+							<div class="section__desc">
+								<div class="design__desc_wrap design__desc_wrap2">
+									<p>Мы ценим минимализм и эргономику, поэтому постарались избежать всего лишнего в конструкции Какаду. Это максимально простое и надежное устройство, созданное с целью хранить ваши данные с гарантированной безопасностью.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+          
+
+          <div class="tabs-container">
+            <!-- Tab links -->
+            <div class="tab">
+              <a href="#" class="tablinks" onclick="openTab(event, 'tab-static')"><span>СОБРАТЬ</span></a>
+              <a href="#" class="tablinks" onclick="openTab(event, 'tab-build')"><span>РАЗОБРАТЬ</span></a>
+              <a href="#" class="tablinks" onclick="openTab(event, 'tab-scheme')"><span>СХЕМА</span></a>
+            </div>
+
+            <div class="tabs_wrap">
+              <!-- Tab content -->
+              <div id="tab-static" class="tabcontent responsive mb-30" style="display: block;">
+                <img src="img/design/kakadu-build-static.png" alt="" class="responsive">
+              </div>
+
+              <div id="tab-build" class="tabcontent responsive mb-30" style="display: none;">
+                <img src="img/design/kakadu-rasborka.gif" alt="" class="responsive">
+              </div>
+
+              <div id="tab-scheme" class="tabcontent responsive mb-30" style="display: none;">
+                <div class="tab-scheme-wrap">
+                  <img src="img/design/kakadu-scheme-2.png" alt="" class="responsive">
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="design-specification">
+            <div class="container">
+              <div class="row justify-content-center no-gutters">
+                <div class="col-lg-3">
+                  <h4 class="design-specification_margin">Размер и вес</h4>
+                  <p>Размер: 89мм x 18мм x 11,5мм <br>
+                    Вес: 16 г.</p>
+								</div>
+								<div class="col-lg-5">
+										<h4 class="design-specification_margin ">Совместимость</h4>
+										<p>Windows (7+), Mac (10.9+), Linux, iOS, Android <br>
+											USB порт для подключения Kakadu <br>
+											Дополнительных драйверов не требуется</p>
+										<h4 class="design-specification_margin design-specification_marginTop">Комплект поставки</h4>
+										<p>— Аппаратный менеджер паролей «Какаду» <br>
+											— USB удлинитель <br>
+											— Инструкция
+										</p>
+								</div>
+                
+								
+                <div class="col-lg-4">
+                  <h4 class="design-specification_margin">Электроника</h4>
+                  <p>Микроконтроллер: ARM Cortex-M3 72MHz <br>
+                    Память: более 4000 записей (логин, пароль, URL) <br>
+                    Питание: от USB, аккумуляторов не требуется. <br>
+                    Разъем: USB-A <br>
+                    Дисплей: 128x32 пикселей, монохромный 0,91’ OLED <br>
+                    Ввод: 2 кнопки, колесо-энкодер <br>
+                    Материал корпуса: пластик</p>
+                </div>
+               
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="team__wrap bg-blue">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-7 col-md-9">
+        <div id="team" class="section team">
+          <div class="section__header team__header">
+            <h2 class="section-header">Команда Kakadu</h2>
+          </div>
+          <div class="section__desc team__desc">
+            <p>Настройка для аутентификации через «Какаду» не займет много времени, зато заметно облегчит работу</p>
+          </div>
+          <div class="team_gallery_wrap">
+            <div class="team_gallery_item">
+              <div class="team_gallery_item__image">
+                <img src="img/team/team-shitov-main.png" alt="" >
+              </div>
+              <div class="team_gallery_item__name">
+                <h4>Максим Шитов</h4>
+              </div>
+              <div class="team_gallery_item__desc">
+                <p>Железо и защита данных</p>
+              </div>
+            </div>
+            <div class="team_gallery_item">
+              <div class="team_gallery_item__image">
+                <img src="img/team/team-sedov-main.png" alt=""  >
+              </div>
+              <div class="team_gallery_item__name">
+                <h4>Александр Седов</h4>
+              </div>
+              <div class="team_gallery_item__desc">
+                <p>Программирование</p>
+              </div>
+            </div>
+
+          </div>
+          <a href="team.html" class="btn btn-accent btn-accent2 btn-accent4">Подробнее</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="wave"></div>
+  <footer>
+
+	<div class="container-fluid bg_footer">
+							<div class="hr">
+						</div>
+	<div class="container ">
+		<div class="row ">
+			<div class="col-12  d-flex justify-content-center">
+				<div class="footerTop ">
+					
+					<div class="footerTop_title ">
+						<img src="/img/geek.png" alt="" class="footerTop_img">
+						Подпишитесь на нас в социальных сетях 
+					</div>
+					<div class="footerTop_description">
+						Читайте полезные статьи в области безопасности и IT
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row justify-content-center ">
+			<div class="col-8">
+					<div class=" footer__socialBlock footer__socialBlock1">
+						<div id="vk_groups2">
+
+						</div>
+					</div>
+				</div>
+		</div>
+	</div>
+</div>
+
+	<div class="container-fluid">
+		<div class="container">
+		<div class="row no-gutters">
+			<div class="col">
+        <div class="section footer">
+          <div class="footer__content-wrap  d-flex justify-content-sm-center">
+            <div class="footer__content-wrap__item footer__name">
+              <h4>CRYPTO KAKADU 2018</h4>
+            </div>
+            <div class="footer__content-wrap__item footer__menu  d-flex justify-content-sm-center justify-content-start">
+              <ul>
+                <li><a href="partners.html">Предложение корпоративным клиентам и партнерам</a></li>
+                <li><a href="shop.html">Оформление предзаказа</a></li>
+                <li><a href="faq.html">FAQ — часто задаваемые вопросы</a></li>
+              </ul>
+            </div>
+            <div class="footer__content-wrap__item footer__about  d-flex justify-content-sm-center justify-content-start">
+              <div class="footer__about_center ">
+								<h4>Разработчик и изготовитель</h4>
+								<p>ООО «Базовые технологии» <br>
+									ОГРН 1147748017317 <br>
+									ИНН 7731487174</p>
+							</div>
+            </div>
+            <div class="footer__content-wrap__item footer__contacts  d-flex justify-content-sm-center justify-content-start">
+              <div class="footer__contacts_center">
+								<h4>Электронная почта:</h4>
+								<p>hello@kakadu.io</p>
+							</div>
+            </div>
+          </div>
+        </div>
+
+			</div>
+		</div>
+		</div>
+	</div>
+</footer>
+<script type="text/javascript">
+	VK.Widgets.Group("vk_groups1", {mode: 4, wide: 1, no_cover: 1, width: "auto", height: "270"}, 172944070);
+</script>
+<script type="text/javascript">
+	VK.Widgets.Group("vk_groups2", {mode: 4, wide: 1, no_cover: 1, width: "auto", height: "270"}, 172944070);
+</script>
+	
+
+
+
+
+<!-- jQuery -->
+<script src="libs/jquery/jquery.min.js"></script>
+
+<!-- Owl carousel -->
+<script src="libs/owlcarousel/owl.carousel.min.js"></script>
+
+<!-- custom -->
+<script src="js/main.js"></script>
+
+
+</body>
+</html>

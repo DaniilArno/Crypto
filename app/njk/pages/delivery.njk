@@ -1,0 +1,131 @@
+{% extends 'base.njk' %}
+
+{% set page = "delivery" %}
+
+{% block content %}
+
+  {% include 'partials/nav-top.njk' %}
+
+<div class="container-fluid">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="page-content__desc">
+            <h1>Оформление заказа</h1>
+						<div class="page-content__header shop__header w-670">
+            
+          </div>
+          </div><div class="page-content__social  d-none d-md-block">
+					    <div class="page-content__social_item page-content__social_item1 d-flex align-items-center justify-content-center" >
+								<a href="#" class="page-content__socialIcon1">
+										<i class="fas fa-share-alt"></i>
+								</a>
+							</div>
+							<div class="page-content__social_item page-content__social_item2 d-flex align-items-center  justify-content-center ">
+                <a href="#" class="page-content__socialIcon2">
+                    <i class="fab fa-vk"></i>
+                </a> 
+              </div>
+              <div class="page-content__social_item page-content__social_item3 d-flex align-items-center  justify-content-center ">
+                <a href="#"  class="page-content__socialIcon3">
+                    <i class="fab fa-facebook-f"></i>
+                </a>	
+              </div>
+					</div>
+			</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+
+	
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="page-content page-content-delivery ">
+          
+          
+          <div class="shop__main-section">
+            <div class="breadcrumbs form-row">
+              <a href="shop.html" class="">Магазин</a>
+              <a href="order.html" class="">Кому</a>
+              <a href="#" onclick="return false;" class="active">Доставка и оплата</a>
+            </div>
+            <div class="form-order-who-wrap">
+              <form action="#" class="form-order form-order-delivery">
+                <div class="form-row">
+                  <label for="">Город</label>
+                  <input type="text" placeholder="Москва">
+                </div>
+                <div class="form-row">
+                  <label for="">Тип доставки</label>
+                  <div class="wrap d-inline-block">
+                    <select name="" id="">
+                      <option>Курьером до двери</option>
+                    </select>
+                    <span class="d-block desc-text">(от 300 рублей и 1 дня)</span>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <label for="">Улица</label>
+                  <input type="text" placeholder="Академика Янгеля" class="">
+                </div>
+                <div class="form-row">
+                  <label for="">Номер дома</label>
+                  <input type="text" placeholder="3" class="small">
+                </div>
+                <div class="form-row">
+                  <label for="">Корпус</label>
+                  <input type="text" placeholder="2" class="small">
+									<span class=" home-label">Если есть</span>
+                </div>
+								
+                <div class="form-row">
+                  <label for="">Квартира, офис</label>
+                  <input type="text" placeholder="154" class="small">
+                </div>
+              </form>
+            </div>
+            {% include 'partials/delivery__order-block.njk' %}
+
+          </div>
+          <div class="block-delivery-pay-by delivery_float">
+            <div class="delivery_floatItem">Способ оплаты:</div>
+            <div class="block-delivery-pay-types delivery_floatItem">
+              <a href="#" onclick="return false;">
+                <img src="img/debit-card-shadow.png" alt="">
+              </a>
+						</div>
+						<div class="row">
+							<div class="col">
+									<input class="delivery_floatItem_radio" type="radio" name="gender" value="male">
+							</div>
+						</div>
+						
+          </div>
+          <div class="block-delivery-order delivery-order-link">
+            <a href="#" class="btn-order-link delivery-order-link"><span>Подтвердить и оплатить</span></a>
+            <div class="privacy">
+              <form action="">
+                <input type="checkbox" id="checkbox_privacy" required>
+              </form>
+              <div class="form-checkbox-desc">
+                <p>Даю согласие на обработку
+                  <a href="/terms.html" target="_blank">персональных данных</a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  {% include 'partials/wave.njk' %}
+  {% include 'partials/footer.njk' %}
+
+{% endblock %}

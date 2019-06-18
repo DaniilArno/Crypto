@@ -1,0 +1,9 @@
+{% macro active(activePage) %}
+
+  <div class="sidebar-header {% if activePage == 'index' %}bg-green{% endif %} {% if activePage == 'about-me' %}bg-yellow{% endif %} {% if activePage == 'health-status' %}bg-red{% endif %}">
+    <div class="sidebar-header-name">
+      <h2>{% if activePage == 'index' %}Рабочий стол пользователя{% endif %} {% if activePage == 'about-me' %}Информация о пользователе{% endif %} {% if activePage == 'health-status' %}Состояние здоровья, оценка рисков и рекомендации{% endif %}</h2>
+    </div>
+  </div>
+
+{% endmacro %}

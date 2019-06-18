@@ -1,0 +1,77 @@
+<div class="sidebar d-flex justify-content-start">
+  {% import 'macros/sidebar-icon__macro.njk' as sidebarIcon %}
+  {{ sidebarIcon.active(page) }}
+
+  {#<div class="sidebar-tabs ">#}
+    {#<div class="sidebar-header-icon active d-inline-block clearfix" style="z-index: 100;">#}
+      {#<div class="left-marker bg-green clearfix"></div>#}
+      {#<div class="sidebar-header-icon-img">#}
+        {#<img src="img/icons/home-2.png" alt="" class="">#}
+      {#</div>#}
+    {#</div>#}
+    {#<div class="sidebar-header-icon  d-inline-block clearfix"  style="z-index: 90;">#}
+      {#<div class="left-marker bg-yellow clearfix"></div>#}
+      {#<div class="sidebar-header-icon-img">#}
+        {#<img src="img/icons/user-3.png" alt="" class="">#}
+      {#</div>#}
+    {#</div>#}
+    {#<div class="sidebar-header-icon  d-inline-block clearfix" style="z-index: 80;">#}
+      {#<div class="left-marker bg-red clearfix"></div>#}
+      {#<div class="sidebar-header-icon-img">#}
+        {#<img src="img/icons/like-2.png" alt="" class="">#}
+      {#</div>#}
+    {#</div>#}
+  {#</div>#}
+  <div class="sidebar-wrap">
+    {#<div class="sidebar-header {% if page == 'index' %}bg-green{% endif %}">#}
+      {#<div class="sidebar-header-name">#}
+        {#<h2>Рабочий стол пользователя</h2>#}
+      {#</div>#}
+    {#</div>#}
+    {% import 'macros/sidebar-header__macro.njk' as sidebarHeader %}
+    {{ sidebarHeader.active(page) }}
+    <div class="sidebar-content">
+      <div class="user-item d-flex align-items-center ">
+        <div class="user-item-image">
+          <img src="img/profile.png" alt="">
+        </div>
+        <div class="user-item-info">
+          <h4 class="user-item-name">Aгроник Алексей Юрьевич</h4>
+          <a href="about-me.html" class="link-with-image"><span>О себе</span><img src="img/icons/edit-1.png" alt=""></a>
+        </div>
+      </div>
+      {% if page == "index" %}
+        <div class="user-help">
+          <a href="#" class="link-content-wrap">
+            <img src="img/icons/chat.png" alt="">
+            <div class="desc">
+              <p>Задать вопрос менеджеру по здоровью</p>
+            </div>
+          </a>
+        </div>
+      {% endif %}
+      {% if page == "about-me" %}
+      <div class="userAspect_container">
+        {% for aspect in aspects %}
+          <div class="userAspect_item dotted-spaced">
+            <div class="userAspect__name">
+              <p>{{ aspect.name }}</p>
+            </div>
+            <div class="userAspect_circleIndicator">
+              <div class="circle-outer"><div class="circle-inner"></div></div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+
+    </div>
+    <div class="sidebar-footer ">
+      <a href="#" class="link-with-image">
+        <span class="">Выйти</span>
+        <img src="img/icons/exit.png" alt="">
+      </a>
+    </div>
+  </div>
+</div>

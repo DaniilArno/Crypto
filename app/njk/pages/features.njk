@@ -1,0 +1,98 @@
+{% extends 'base.njk' %}
+
+{% set page = "features" %}
+
+{% block content %}
+
+  {% include 'partials/nav-top.njk' %}
+	
+<div class="container-fluid">
+		<div class="container">
+			<div class="row ">
+				<div class="col-12">
+					<div class="page-content__header">
+						<h1>Что умеет аппаратный <br> менеджер паролей</h1>
+					</div>
+					<div class="page-content__social  page-content__social-shop d-none d-md-block">
+            <div class="page-content__social_item page-content__social_item1 d-flex align-items-center justify-content-center" >
+              <a href="#" class="page-content__socialIcon1">
+                  <i class="fas fa-share-alt"></i>
+              </a>
+            </div>
+            <div class="page-content__social_item page-content__social_item2 d-flex align-items-center  justify-content-center ">
+              <a href="#" class="page-content__socialIcon2">
+                  <i class="fab fa-vk"></i>
+              </a> 
+            </div>
+            <div class="page-content__social_item page-content__social_item3 d-flex align-items-center  justify-content-center ">
+              <a href="#"  class="page-content__socialIcon3">
+                  <i class="fab fa-facebook-f"></i>
+              </a>	
+            </div>
+					</div>
+			</div>
+				</div>
+			</div>
+		</div>
+	</div>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="page-content  page-content-features w-800">
+          <div class="page-content__desc w-730">
+            <p>Серьезный подход к безопасности личных данных требует, чтобы для каждого сервиса и сайта у пользователя был уникальный сложный пароль или пара логин-пароль. Чем больше паролей, тем сложнее их запоминать и хранить. Вам потребуется надежное защищенное место, которое всегда под рукой. Вводить сложные длинные пароли вручную неудобно, облачные сервисы для хранения паролей зависят от наличия интернета и могут быть взломаны, а автосохранение паролей в браузере – лучший способ поделиться ими со злоумышленниками. Аппаратный менеджер Kakadu решает проблемы хранения и ввода паролей максимально простым и безопасным способом.</p>
+          </div>
+          <div class="features-list">
+            <div class="features-list__item">
+              <img src="img/icons/icon-features-safe-blue.png" alt="">
+              <h4>Аппаратное <br> хранение паролей</h4>
+              <p>Все ваши пароли и важные данные хранятся офлайн в защищенном физическом устройстве, которое нельзя взломать через интернет или зараженный компьютер.</p>
+            </div>
+            <div class="features-list__item">
+              <img src="img/icons/icon-features-autoenter-blue.png" alt="">
+              <h4>Автоматический <br> ввод паролей</h4>
+              <p>Kakadu распознается компьютером как USB HID устройство, которое эмулирует компьютерную клавиатуру и самостоятельно вводит пароли в нужные формы. Больше не нужно набирать пароли руками или использовать небезопасное автосохранение в браузере. Какаду работает с любыми приложениями и программами, куда можно записать данные с помощью стандартной клавиатуры.</p>
+            </div>
+            <div class="features-list__item">
+              <img src="img/icons/icon-features-remember-blue.png" alt="">
+              <h4>Аппаратное <br> хранение паролей</h4>
+              <p>Доступ к хранящимся данным возможен только после ручного ввода PIN кода, который устанавливает сам пользователь. Это обеспечивает защиту хранимых данных от посторонних лиц. Несколько неверных попыток ввода PIN приведут к полному стиранию памяти устройства. </p>
+            </div>
+            <div class="features-list__item">
+              <img src="img/icons/icon-features-without-internet-blue.png" alt="">
+              <h4>Не требует подключения <br>к интернету</h4>
+              <p>Какаду – полностью автономное устройство с криптопроцессором и защищенной от взлома памятью, в которой в зашифрованном виде хранятся ваши пароли и учетные данные. При подключении к компьютеру или смартфону интернет не нужен. Все что нужно для работы с флешкой, уже есть на Какаду. Вы просто выбираете на дисплее, какую именно запись нужно ввести и нажимаете кнопку. Готово! Запись безопасно введена в нужное поле.</p>
+            </div>
+            <div class="features-list__item">
+              <img src="img/icons/icon-features-crypto-blue.png" alt="">
+              <h4>Идеален для <br>криптокошельков</h4>
+              <p>Kakadu надежно сохранит длинные уникальные ключи и пароли от криптокошельков и бирж криптовалют. В отличие от аппаратных криптокошельков Kakadu не привязан к конкретному сервису и позволяет пользоваться множеством кошельков и бирж одновременно.</p>
+            </div>
+            <div class="features-list__item">
+              <img src="img/icons/icon-features-backup-blue.png" alt="">
+              <h4>Защищенные <br>резервные копии</h4>
+              <p>Резервная копия данных шифруется мастер-паролем с помощью алгоритма шифрования AES-256. Резервную копию можно сохранить на компьютере или в облаке, чтобы восстановить данные при потере или повреждении устройства.</p>
+            </div>
+            <div class="features-list__item">
+              <img src="img/icons/icon-features-devices-blue.png" alt="">
+              <h4>Совместим с любыми <br>устройствами</h4>
+              <p>Kakadu можно использовать с любым компьютером или смартфоном, на любой операционной системе: Mac, Windows, Linux, iOS и Android, если они поддерживают подключение USB HID устройства. Подходит для любых приложений и не требует драйверов.</p>
+            </div>
+            <div class="features-list__item">
+              <img src="img/icons/icon-features-charge-blue.png" alt="">
+              <h4>Не требует зарядки, <br>питание через USB</h4>
+              <p>В отключенном состоянии Какаду никак не взаимодействует с внешним миром. При подключении к компьютеру или смартфону флешка получает питание через USB. Этого достаточно для полного обеспечения работы. USB удлинитель, идущий в комплекте, облегчает работу с ноутбуком и стационарным компьютером.</p>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  {% include 'partials/wave.njk' %}
+  {% include 'partials/footer.njk' %}
+
+{% endblock %}

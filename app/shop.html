@@ -1,0 +1,556 @@
+
+
+
+
+<!doctype html>
+<html lang="ru">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700&amp;subset=cyrillic" rel="stylesheet">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.min.css">
+
+
+	<!-- Owl carousel -->
+	<link rel="stylesheet" href="libs/owlcarousel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="libs/owlcarousel/assets/owl.theme.default.min.css">
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+
+	<!-- Custom css -->
+	<link rel="stylesheet" href="css/stylesheet.css">
+
+	<!-- FAVICON -->
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="img/favicon/site.webmanifest">
+	<link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico">
+	<meta name="msapplication-TileColor" content="#603cba">
+	<meta name="msapplication-config" content="img/favicon/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+	<script type="text/javascript" src="https://vk.com/js/api/openapi.js?160"></script>
+
+
+	<title></title>
+</head>
+<body>
+
+
+
+
+  <div class="nav-top">
+  <div class="container ">
+    <div class="row  justify-content-center">
+          <div class="col-lg-3 col-md-3 col-sm-4 col-5 gutters order-1">
+						<div class="nav-top-item nav-top-item-logo d-flex  justify-content-center">
+							<a href="/"><img src="img/logo-kakadu.png" alt="Crypto Kakadu" class="nav-top-item-logo__img "></a>
+						</div>
+					</div>
+          <div class="col-lg-1 col-md-1 col-sm-2 col-3 order-md-2 order-sm-4 order-2 gutters ">
+						<a id="menu"	href="#" onclick="openModal('topMenuModal'); return false;" class="nav-top-item nav-top-item-btn-menu d-flex justify-content-center">
+							<div class="nav-top-item-menu">
+								<img src="img/nav-top/icon-menu.png" alt="" class="nav-top-item-menuIcon">
+								<span>Меню</span>
+							</div>
+						</a>
+					</div>
+          <div class="col-lg-1 col-md-1  col-sm-2 d-none d-sm-block order-sm-3  gutters">
+						<div id="menu_share">
+							<a   href="cart.html" class="nav-top-item nav-top-item-share tooltip d-flex justify-content-center" onclick="return false;" >
+								<img src="/img/nav-top/ico_cart.png" class="nav-top-img" alt="">
+								<div id="share-tooltip" class="tooltiptext" style="display: none;">
+									<script src="//yastatic.net/share2/share.js"></script>
+									<div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,twitter"></div>
+								</div>
+							</a>
+						</div>
+					</div>
+          <div class="  col-lg-2 col-md-3 col-sm-3 col-4 order-md-6 order-sm-4 order-2 gutters d-flex justify-content-center">
+						<div class="phone__item_none">
+							<a href="callto:+7 499 938 50 01" class="nav-top-item nav-top-item__phone  phone_none d-flex justify-content-center">
+								
+								<span>
+									+7 499 938-50-01
+									<br>
+									<span class="nav-top-itemSchedule">c 9:00 до 19:00</span>
+								</span>
+							</a>
+						</div>
+						<!-- <div class=" col-2 ">
+								<a href="callto:+7 495 740-30-69" class="nav-top-item nav-top-item__phone2  d-flex justify-content-center ">
+										<img src="/img/nav-top/mobile.png" alt="" class="">
+										<span class="nav-top-item__phone__text2  phone_none2">
+										 +7 495 740-30-69 
+										</span>
+									</a>
+						</div> -->
+						
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-3 col-sm-4  order-sm-4   d-none d-lg-block gutters">
+							<div  class="btn_top">
+									<a  	class="  nav-top-item  nav-top-item-border d-flex justify-content-center" href="files/kakadu-setup.exe" role="button">
+													<span>Скачать программу</span>
+									</a>
+							</div>
+							
+						</div>
+		
+					<div class=" col-lg-3 col-md-3 col-sm-4 col-3 d-sm-none d-md-block order-sm-5    d-none d-md-block gutters">
+						<div id="btn_top" class="btn_top">
+								<a  id="btn_top_link"	class="  nav-top-item nav-top-item-download btn2 btn-simple  d-flex justify-content-center" href="shop.html" role="button">
+												<span>Выбрать цвет и купить</span>
+										
+								</a>
+						</div>
+					</div>
+    </div>
+  </div>
+</div>
+<!-- Menu Modal -->
+<!-- The Modal/Lightbox -->
+<div id="topMenuModal" class="modal">
+ 
+  	<div class="menu-main-top__wrap">
+		
+    
+		
+	<a href="#" class="close-cross" onclick="closeModal('topMenuModal'); return false;"></a>
+
+
+    <div class="menu-main-top menu">
+			<div class="menu-main-top__item menu-main-top__title d-flex">
+				Меню
+			</div>
+				
+
+
+      <div class="menu-main-top__item menu-main-top__landing">
+				
+        <ul>
+          <li><a class="menu-main-top-link" href="/#masthead" onclick="closeModal('topMenuModal');">Описание</a></li>
+          <li><a class="menu-main-top-link" href="/#situations" onclick="closeModal('topMenuModal');">Когда пригодится</a></li>
+          <li><a class="menu-main-top-link" href="/#protect" onclick="closeModal('topMenuModal');">Безопасность</a></li>
+          <li><a class="menu-main-top-link" href="/#steps" onclick="closeModal('topMenuModal');">Первый запуск</a></li>
+          <li><a class="menu-main-top-link" href="/#design" onclick="closeModal('topMenuModal');">Дизайн</a></li>
+          <li><a class="menu-main-top-link" href="/#team" onclick="closeModal('topMenuModal');">Команда</a></li>
+        </ul>
+      </div>
+      <div class="menu-main-top__item menu-main-top__other-pages">
+        <ul>
+          <li><a href="app.html" class="menu-modal-solid">Приложение «Kakadu Manager»</a></li>
+          <li><a href="shop.html">Оформление предзаказа</a></li>
+          <li><a href="faq.html">FAQ — часто задаваемые вопросы</a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container-fluid bg-blue">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+				<div class="page-content__social  page-content__social-shop d-none d-lg-block">
+					<div class="page-content__social_item page-content__social_item1 d-flex align-items-center justify-content-center" >
+						<a href="#" class="page-content__socialIcon1">
+								<i class="fas fa-share-alt"></i>
+						</a>
+					</div>
+					<div class="page-content__social_item page-content__social_item2 d-flex align-items-center  justify-content-center ">
+						<a href="#" class="page-content__socialIcon2">
+								<i class="fab fa-vk"></i>
+						</a> 
+					</div>
+					<div class="page-content__social_item page-content__social_item3 d-flex align-items-center  justify-content-center ">
+						<a href="#"  class="page-content__socialIcon3">
+								<i class="fab fa-facebook-f"></i>
+						</a>	
+					</div>
+          </div>
+          <div class="page-content__header page-content__headerWhite shop__header">
+            <h1>Устройство безопасного хранения и ввода паролей Какаду Крипто</h1>
+          </div>
+				</div>
+			</div>
+		</div>
+	</div>
+<div class="container-fluid  bg-shop">
+		<div class="container ">
+				<div class="row">
+					<div class="col">
+						<div class="page-content page-content2">
+							<div class="page-content__desc">
+							 
+							<div class="shop__main-section">
+								<div class="shop__product-gallery ">
+										<!-- <div id="lg-wrap" class="img-wrapper">
+											<img id="large" src="/img/order-gallery/Device-kakadu.png" alt="" style="">
+										</div>
+										<div class="preview-wrapper">
+											<ul id='thumbnails' class="dots">
+												<li class="dots-item active"><a href="img/order-gallery/buy-kakadu-gal-01.jpg"
+																												onclick="makeActive(this); return false;"><img
+																src="img/order-gallery/buy-kakadu-gal-01.jpg" alt=""></a></li>
+												<li class="dots-item"><a href="img/order-gallery/buy-kakadu-gal-02.jpg"
+																								 onclick="makeActive(this); return false;"><img
+																src="img/order-gallery/buy-kakadu-gal-02.jpg" alt=""></a></li>
+												<li class="dots-item"><a href="img/order-gallery/buy-kakadu-gal-03.jpg"
+																								 onclick="makeActive(this); return false;"><img
+																src="img/order-gallery/buy-kakadu-gal-03.jpg" alt=""></a></li>
+											</ul>
+										</div> -->
+										<div class="row">
+												<div id="owl-carousel5" class="owl-carousel5 owl-carousel  owl-theme owl-loaded">
+														<div class="owl-stage-outer">
+																<div class="owl-stage">
+																	<div class="owl-item">
+																		<div class="owl-item-image ">
+																			<img src="/img/order-gallery/Device-kakadu.png" alt="">
+																		</div>
+																		</div>
+																		<div class="owl-item">
+																			<div class="owl-item-image">
+																				<img src="/img/order-gallery/Device-kakadu.png" alt="">
+																			</div>
+																	</div>
+																	<div class="owl-item">
+																			<div class="owl-item-image">
+																				<img src="/img/order-gallery/Device-kakadu.png" alt="">
+																			</div>
+																	</div>
+																</div>
+														</div>
+													</div>
+										</div>
+										
+										
+								</div>
+								
+									
+										
+										
+											
+												
+												
+													
+													
+														
+														
+													
+												
+											
+		
+		
+										
+										
+											
+											
+											
+											
+		
+											
+											
+										
+										
+											
+											
+												
+												
+												
+									
+											
+											
+												
+												
+											
+											
+												
+												
+											
+											
+		
+										
+		
+										
+									
+									
+										
+										
+											
+												
+										
+		
+									
+								
+		
+							
+							<div class="shop__order-block shop__order-blockCenter">
+  <form action="#">
+    <p class="fz-14 m-0 lh-1"><b> <span class="bold">Итого:</span></b> Розничная цена <span id="price_for_one" style="display: none;">3900</span></p>
+    <div class="shop__price-count">
+      <div class="shop__initial-price-wrap mb-20">
+        <span class="shop__initial-price fz-48 fw-sbold "><span id="order-total"></span><span class="fw-light currency">&nbsp;₽</span></span>
+        <div class="input-with-img">
+          <input id="input_count" class="input-rounded" type="number" value="1" min="1">
+          <div class="btn-absolute-wrapper">
+            <button id="order_minus" class="btn-img"><img src="img/controls/icon-minus-circle.png" alt=""></button>
+            <button id="order_plus" class="btn-img"><img src="img/controls/icon-plus-circle.png" alt=""></button>
+			 </div>
+        </div>
+      </div>
+    </div>
+    <div class="shop__color-picker mb-35">
+      <div class="shop__color-picker__name"><p>Выберите цвет: </p></div>
+      <div class="shop__color-picker__item">
+        <label class=" custom-radio custom-radio--c-black custom-radio--active mr-10">
+          <input type="radio" value="black" checked="checked" name="device-color-radio">
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="shop__color-picker__item">
+        <label class="custom-radio custom-radio--c-white ">
+          <input type="radio" value="white" name="device-color-radio">
+          <span class="checkmark"></span>
+        </label>
+				
+      </div>
+      <div class="shop__color-picker__item">
+        <label class="custom-radio custom-radio--c-blue ">
+          <input type="radio" value="blue" name="device-color-radio">
+          <span class="checkmark"></span>
+        </label>
+      </div>
+			
+			
+    </div>
+    <a href="order.html" class="btn-order-link mb-35 btn-order-link-buy"><span>Добавить в корзину</span></a>
+
+	</form>
+	
+	
+  <div class="sales-b2b">
+    <div class="img-wrap">
+      <img src="img/icons/order-sale.png" alt="">
+    </div>
+    <div class="sales-b2b__text-wrap">
+      <a href="partners.html">Получить предложение для партнеров
+        и корпоративных клиентов</a>
+    </div>
+  </div>
+</div>
+							
+		
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+</div>
+</div>
+<div class="container">
+		<div class="row device_description_padding">
+			<div class="col-lg-6">
+				<div id="tab_device_description" class=" shop__desc-section__content " >
+						<div class="shop__desc-section__text__inner-header">
+							<div class="shop__desc-sectionTitle">Описание</div>
+						</div>
+						<div class="shop__desc-section__text__inner-text">
+							<p class="shop__desc-section_textInside">Kakadu – это небольшое устройство в виде USB флешки,
+									которое хранит в зашифрованном виде логины и пароли от почты, соцсетей,
+									кошельков криптовалют, банковских сервисов и любых других приложений 
+									и самостоятельно вводит их при подключении к компьютеру или смартфону.
+							</p>
+						</div>
+					</div>
+					<div id="tab_device_documentation" class=" shop__desc-section__content" >
+								<div class="shop__desc-section__text__inner-text link_download">
+									<p><a  href="files/kakadu-manual.pdf" class="link"><img src="/img/order-gallery/pdf.jpg" alt="pdf"><span>Скачать руководство пользователя (350 kb)</span></a></p>
+									<!-- <p  class="shop_download"><img src="/img/order-gallery/program-logo-key.jpg" alt="download" class="shop_download_img"><a href="app.html">Программа Kakadu 1.0</a></p> -->
+								</div>
+						</div>
+			</div>
+			<div class="col-lg-6">
+					<div id="tab_device_specs" class=" shop__desc-section__content" >
+							<div class="shop__desc-section__text__inner-header mb-20">
+								<div class="shop__desc-sectionTitle">Характеристики:</div>
+							</div>
+							<div class="shop__desc-section__text__inner-text">
+								<div class="kakadu-desc-item">
+									<h4>Доступные цвета: 
+										<span>
+											белый, черный, синий
+										</span>
+									</h4>
+									
+								</div>
+								<div class="kakadu-desc-item">
+										<h4>
+											Размер: 
+											<span>
+												 89мм x 18мм x 11,5мм
+											</span> 
+										</h4>
+								</div>
+								<div class="kakadu-desc-item">
+									<h4>Вес: <span> 16 г</span> </h4>
+								</div>
+								<div class="kakadu-desc-item">
+										<h4>Совместимость: 
+											<span>
+												 Windows (7+), Mac (10.9+), Linux, iOS, Android
+												USB порт для подключения Kakadu
+												Дополнительных драйверов не требуется
+											</span> 
+										</h4>
+								
+								</div>
+								<div class="kakadu-desc-item">
+										<h4>Микроконтроллер: <span> ARM Cortex-M3 72MHz </span> 
+											</h4>
+								
+								</div>
+								<div class="kakadu-desc-item">
+										<h4>Память: <span> более 4000 записей (логин, пароль, URL) </span> 
+											</h4>
+								</div>
+								<div class="kakadu-desc-item">
+										<h4>Питание: <span> от USB, аккумуляторов не требуется. </span> 
+											</h4>
+								</div>
+								<div class="kakadu-desc-item">
+										<h4>Разъем: <span> USB-A </span> 
+											</h4>
+								</div>
+								<div class="kakadu-desc-item">
+										<h4>Дисплей: <span> 128x32 пикселей, монохромный 0,91’ OLED  </span> 
+											</h4>
+								</div>
+								<div class="kakadu-desc-item">
+										<h4>Ввод: <span>2 кнопки, колесо-энкодер  </span> 
+											</h4>
+								</div>
+								<div class="kakadu-desc-item">
+										<h4>Материал корпуса: <span> пластик  </span> 
+											</h4>
+								</div>
+								<div class="kakadu-desc-item">
+										<h4>Комплект поставки: <span> Аппаратный менеджер паролей «Какаду», USB удлинитель, инструкция </span> 
+											</h4>
+								</div>
+							</div>
+						</div>
+			</div>
+		</div>
+</div>
+				
+				
+				
+
+
+  <div class="wave"></div>
+
+  <footer>
+
+	<div class="container-fluid bg_footer">
+							<div class="hr">
+						</div>
+	<div class="container ">
+		<div class="row ">
+			<div class="col-12  d-flex justify-content-center">
+				<div class="footerTop ">
+					
+					<div class="footerTop_title ">
+						<img src="/img/geek.png" alt="" class="footerTop_img">
+						Подпишитесь на нас в социальных сетях 
+					</div>
+					<div class="footerTop_description">
+						Читайте полезные статьи в области безопасности и IT
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row justify-content-center ">
+			<div class="col-8">
+					<div class=" footer__socialBlock footer__socialBlock1">
+						<div id="vk_groups2">
+
+						</div>
+					</div>
+				</div>
+		</div>
+	</div>
+</div>
+
+	<div class="container-fluid">
+		<div class="container">
+		<div class="row no-gutters">
+			<div class="col">
+        <div class="section footer">
+          <div class="footer__content-wrap  d-flex justify-content-sm-center">
+            <div class="footer__content-wrap__item footer__name">
+              <h4>CRYPTO KAKADU 2018</h4>
+            </div>
+            <div class="footer__content-wrap__item footer__menu  d-flex justify-content-sm-center justify-content-start">
+              <ul>
+                <li><a href="partners.html">Предложение корпоративным клиентам и партнерам</a></li>
+                <li><a href="shop.html">Оформление предзаказа</a></li>
+                <li><a href="faq.html">FAQ — часто задаваемые вопросы</a></li>
+              </ul>
+            </div>
+            <div class="footer__content-wrap__item footer__about  d-flex justify-content-sm-center justify-content-start">
+              <div class="footer__about_center ">
+								<h4>Разработчик и изготовитель</h4>
+								<p>ООО «Базовые технологии» <br>
+									ОГРН 1147748017317 <br>
+									ИНН 7731487174</p>
+							</div>
+            </div>
+            <div class="footer__content-wrap__item footer__contacts  d-flex justify-content-sm-center justify-content-start">
+              <div class="footer__contacts_center">
+								<h4>Электронная почта:</h4>
+								<p>hello@kakadu.io</p>
+							</div>
+            </div>
+          </div>
+        </div>
+
+			</div>
+		</div>
+		</div>
+	</div>
+</footer>
+<script type="text/javascript">
+	VK.Widgets.Group("vk_groups1", {mode: 4, wide: 1, no_cover: 1, width: "auto", height: "270"}, 172944070);
+</script>
+<script type="text/javascript">
+	VK.Widgets.Group("vk_groups2", {mode: 4, wide: 1, no_cover: 1, width: "auto", height: "270"}, 172944070);
+</script>
+	
+
+
+
+<!-- jQuery -->
+<script src="libs/jquery/jquery.min.js"></script>
+
+<!-- Owl carousel -->
+<script src="libs/owlcarousel/owl.carousel.min.js"></script>
+
+<!-- custom -->
+<script src="js/main.js"></script>
+
+
+</body>
+</html>

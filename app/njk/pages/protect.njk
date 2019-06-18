@@ -1,0 +1,80 @@
+{% extends 'base.njk' %}
+
+{% set page = "partners" %}
+
+{% block content %}
+  {% include 'partials/nav-top.njk' %}
+<div class="container-fluid">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="page-content__header">
+						 <h1>Безопасноcть данных – главное в Какаду</h1>
+					</div>
+					<div class="page-content__social  d-none d-md-block">
+						<div class="page-content__social_item page-content__social_item1 d-flex align-items-center justify-content-center" >
+								<a href="#" class="page-content__socialIcon1">
+										<i class="fas fa-share-alt"></i>
+								</a>
+							</div>
+							<div class="page-content__social_item page-content__social_item2 d-flex align-items-center  justify-content-center ">
+                <a href="#" class="page-content__socialIcon2">
+                    <i class="fab fa-vk"></i>
+                </a> 
+              </div>
+              <div class="page-content__social_item page-content__social_item3 d-flex align-items-center  justify-content-center ">
+                <a href="#"  class="page-content__socialIcon3">
+                    <i class="fab fa-facebook-f"></i>
+                </a>	
+              </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+  <div class="container ">
+    <div class="row">
+      <div class="col">
+        <div class="page-content w-800">
+         
+          <p>Мы ответственно подходим к безопасности личных данных и проработали все аспекты шифрования, защиты и восстановления данных в экстренных случаях.</p>
+          
+
+          <div class="article-group">
+            <h3 class="">Криптография</h3>
+            <p>Для шифрования данных применяются симметричный алгоритм блочного шифрования AES256 и криптографическая хеш-функция SHA-3 (Keccak), используемые службами безопасности многих стран мира для защиты сведений, составляющих государственную тайну.</p>
+          </div>
+          <div class="article-group">
+            <h3 class="">Продуманные алгоритмы защиты</h3>
+            <p>Ключ шифрования генерируется из комбинации случайных чисел, PIN и уникального ID микроконтроллера, известного только самому устройству. PIN не хранится в памяти устройства в явном виде.</p>
+          </div>
+          <div class="article-group">
+            <h3 class="">Защита от зараженного компьютера</h3>
+            <p>В рабочем режиме Kakadu опознается как USB клавиатура и не принимает никаких команд со стороны аппаратуры, к которой он подключен. Это гарантирует полное отсутствие возможности доступа к памяти устройства со стороны вредоносного программного обеспечения.
+            </p>
+          </div>
+          <div class="article-group">
+            <h3 class="">Защита от кражи или потери</h3>
+            <p>Если вы потеряли ваш Kakadu или его украли, за безопасность данных можно не волноваться. Не зная PIN, посторонние не получат доступ к вашим данным, а вы сможете восстановить их в любое время из резервной копии.</p>
+          </div>
+          <div class="article-group">
+            <h3 class="">Защита от перебора и аппаратного взлома</h3>
+            <p>В Kakadu используется микроконтроллер с защитой от чтения, которая предотвращает любые попытки прочитать хранимую в нем информацию, будь то микропрограмма или пользовательские данные. Попытка перебора пароля приведет к стиранию всех хранящихся в устройстве данных, а внутрисхемное вмешательство – к физическому разрушению памяти и микроконтроллера.</p>
+          </div>
+          <div class="article-group">
+            <h3 class="">Защита от потери данных</h3>
+            <p>Вы можете создать резервную копию данных в приложении Kakadu во время конфигурации устройства. Резервные копии шифруются с помощью алгоритма AES-256, что гарантирует полную безопасность данных независимо от того, где вы будете их хранить – на компьютере или в облаке.</p>
+          </div>
+          <div class="article-group">
+            <h3 class="">Остались еще вопросы? <a href="faq.html">Отвечаем на них</a></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  {% include 'partials/wave.njk' %}
+  {% include 'partials/footer.njk' %}
+
+{% endblock %}

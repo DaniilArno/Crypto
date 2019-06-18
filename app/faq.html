@@ -1,0 +1,533 @@
+
+
+
+
+<!doctype html>
+<html lang="ru">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700&amp;subset=cyrillic" rel="stylesheet">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.min.css">
+
+
+	<!-- Owl carousel -->
+	<link rel="stylesheet" href="libs/owlcarousel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="libs/owlcarousel/assets/owl.theme.default.min.css">
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+
+	<!-- Custom css -->
+	<link rel="stylesheet" href="css/stylesheet.css">
+
+	<!-- FAVICON -->
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="img/favicon/site.webmanifest">
+	<link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico">
+	<meta name="msapplication-TileColor" content="#603cba">
+	<meta name="msapplication-config" content="img/favicon/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+	<script type="text/javascript" src="https://vk.com/js/api/openapi.js?160"></script>
+
+
+	<title></title>
+</head>
+<body>
+
+
+
+  <div class="nav-top">
+  <div class="container ">
+    <div class="row  justify-content-center">
+          <div class="col-lg-3 col-md-3 col-sm-4 col-5 gutters order-1">
+						<div class="nav-top-item nav-top-item-logo d-flex  justify-content-center">
+							<a href="/"><img src="img/logo-kakadu.png" alt="Crypto Kakadu" class="nav-top-item-logo__img "></a>
+						</div>
+					</div>
+          <div class="col-lg-1 col-md-1 col-sm-2 col-3 order-md-2 order-sm-4 order-2 gutters ">
+						<a id="menu"	href="#" onclick="openModal('topMenuModal'); return false;" class="nav-top-item nav-top-item-btn-menu d-flex justify-content-center">
+							<div class="nav-top-item-menu">
+								<img src="img/nav-top/icon-menu.png" alt="" class="nav-top-item-menuIcon">
+								<span>Меню</span>
+							</div>
+						</a>
+					</div>
+          <div class="col-lg-1 col-md-1  col-sm-2 d-none d-sm-block order-sm-3  gutters">
+						<div id="menu_share">
+							<a   href="cart.html" class="nav-top-item nav-top-item-share tooltip d-flex justify-content-center" onclick="return false;" >
+								<img src="/img/nav-top/ico_cart.png" class="nav-top-img" alt="">
+								<div id="share-tooltip" class="tooltiptext" style="display: none;">
+									<script src="//yastatic.net/share2/share.js"></script>
+									<div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,twitter"></div>
+								</div>
+							</a>
+						</div>
+					</div>
+          <div class="  col-lg-2 col-md-3 col-sm-3 col-4 order-md-6 order-sm-4 order-2 gutters d-flex justify-content-center">
+						<div class="phone__item_none">
+							<a href="callto:+7 499 938 50 01" class="nav-top-item nav-top-item__phone  phone_none d-flex justify-content-center">
+								
+								<span>
+									+7 499 938-50-01
+									<br>
+									<span class="nav-top-itemSchedule">c 9:00 до 19:00</span>
+								</span>
+							</a>
+						</div>
+						<!-- <div class=" col-2 ">
+								<a href="callto:+7 495 740-30-69" class="nav-top-item nav-top-item__phone2  d-flex justify-content-center ">
+										<img src="/img/nav-top/mobile.png" alt="" class="">
+										<span class="nav-top-item__phone__text2  phone_none2">
+										 +7 495 740-30-69 
+										</span>
+									</a>
+						</div> -->
+						
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-3 col-sm-4  order-sm-4   d-none d-lg-block gutters">
+							<div  class="btn_top">
+									<a  	class="  nav-top-item  nav-top-item-border d-flex justify-content-center" href="files/kakadu-setup.exe" role="button">
+													<span>Скачать программу</span>
+									</a>
+							</div>
+							
+						</div>
+		
+					<div class=" col-lg-3 col-md-3 col-sm-4 col-3 d-sm-none d-md-block order-sm-5    d-none d-md-block gutters">
+						<div id="btn_top" class="btn_top">
+								<a  id="btn_top_link"	class="  nav-top-item nav-top-item-download btn2 btn-simple  d-flex justify-content-center" href="shop.html" role="button">
+												<span>Выбрать цвет и купить</span>
+										
+								</a>
+						</div>
+					</div>
+    </div>
+  </div>
+</div>
+<!-- Menu Modal -->
+<!-- The Modal/Lightbox -->
+<div id="topMenuModal" class="modal">
+ 
+  	<div class="menu-main-top__wrap">
+		
+    
+		
+	<a href="#" class="close-cross" onclick="closeModal('topMenuModal'); return false;"></a>
+
+
+    <div class="menu-main-top menu">
+			<div class="menu-main-top__item menu-main-top__title d-flex">
+				Меню
+			</div>
+				
+
+
+      <div class="menu-main-top__item menu-main-top__landing">
+				
+        <ul>
+          <li><a class="menu-main-top-link" href="/#masthead" onclick="closeModal('topMenuModal');">Описание</a></li>
+          <li><a class="menu-main-top-link" href="/#situations" onclick="closeModal('topMenuModal');">Когда пригодится</a></li>
+          <li><a class="menu-main-top-link" href="/#protect" onclick="closeModal('topMenuModal');">Безопасность</a></li>
+          <li><a class="menu-main-top-link" href="/#steps" onclick="closeModal('topMenuModal');">Первый запуск</a></li>
+          <li><a class="menu-main-top-link" href="/#design" onclick="closeModal('topMenuModal');">Дизайн</a></li>
+          <li><a class="menu-main-top-link" href="/#team" onclick="closeModal('topMenuModal');">Команда</a></li>
+        </ul>
+      </div>
+      <div class="menu-main-top__item menu-main-top__other-pages">
+        <ul>
+          <li><a href="app.html" class="menu-modal-solid">Приложение «Kakadu Manager»</a></li>
+          <li><a href="shop.html">Оформление предзаказа</a></li>
+          <li><a href="faq.html">FAQ — часто задаваемые вопросы</a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+  <div class="navbar-height-fix"></div>
+
+<div class="container-fluid">
+		<div class="container ">
+			<div class="row">
+				<div class="col-12">
+					<div class="page-content__header ">
+						<h1>Предугадываем ваши вопросы</h1>
+					</div>
+					<div class="page-content__social  d-none d-md-block">
+              <div class="page-content__social_item page-content__social_item1 d-flex align-items-center justify-content-center" >
+								<a href="" class="page-content__socialIcon1">
+										<i class="fas fa-share-alt"></i>
+								</a>
+							</div>
+							<div class="page-content__social_item page-content__social_item2 d-flex align-items-center  justify-content-center ">
+                <a href="" class="page-content__socialIcon2">
+                    <i class="fab fa-vk"></i>
+                </a> 
+              </div>
+              <div class="page-content__social_item page-content__social_item3 d-flex align-items-center  justify-content-center ">
+                <a href=""  class="page-content__socialIcon3">
+                    <i class="fab fa-facebook-f"></i>
+                </a>	
+              </div>
+					</div>
+			</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+  <div class="container ">
+    <div class="row">
+      <div class="col">
+        <div class="page-content">
+          
+          <!-- <hr class="hr-article"> -->
+          <h3>Безопасность</h3>
+          <div class="accordion-container">
+            <ol>
+
+              <li>
+                <div class="accordion">
+                  <a href="">
+                    <h5 class="">Надежна ли криптография, которую вы используете?</h5>
+                  </a>
+                  <div class="accordion-content">
+                    <p>Данные хранятся в памяти устройства в зашифрованном виде с применением алгоритма шифрования AES-256. AES-256 это
+                      симметричный алгоритм блочного шифрования, который используется службами безопасности многих стран мира для защиты
+                      сведений, составляющих государственную тайну.</p>
+                    <p>Ключ шифрования генерируется из комбинации случайных чисел, PIN кода и уникального ID микроконтроллера, известного
+                      только самому устройству. PIN не хранится в памяти устройства в явном виде.</p>
+                    <p>При конфигурации Какаду через приложение создается резервная копия всех данных и настроек, которая шифруется мастер-паролем
+                      с помощью алгоритма шифрования AES-256.</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="accordion">
+                  <a href="">
+                    <h5 class="">Достаточно ли одного PIN кода для защиты доступа к устройству?</h5>
+                  </a>
+                  <div class="accordion-content">
+                    <p>Да. Доступ к данным возможен исключительно после ручного ввода PIN кода, который устанавливает сам пользователь. Доступ к данным через PIN гарантирует, что в случае кражи злоумышленник не сможет разблокировать устройство, так как он не знает установленного кода.</p>
+                    <p>После каждых 5 неудачных попыток ввода PIN устройство перестает отвечать на любые действия в течение часа или до полного обесточивания устройства (отключения от USB). Суммарно после 15 неудачных попыток ввода PIN происходит стирание памяти устройства.</p>
+                    <p>При каждом запуске выводится оставшееся количество попыток до стирания устройства. Это позволит увидеть, пытался ли кто-то подобрать PIN в ваше отсутствие.</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="accordion">
+                  <a href="">
+                    <h5 class="">Что делать, если я потеряю свой Какаду?</h5>
+                  </a>
+                  <div class="accordion-content">
+                    <p>Ничего страшного не произойдет. Посторонние не получат доступ к вашим данным, а вы сможете восстановить их в любое время из резервной копии и записать на новый Какаду.</p>
+                    <p>1. Посторонние не смогут прочесть ваши данные, хранящиеся на потерянном Какаду, так как они не знают PIN. В лучшем случае они смогут записать на найденное устройство собственные данные через приложение Какаду. Однако при этом все предыдущие данные будут безвозвратно стерты. Таким образом обеспечивается полная безопасность ваших данных, если Какаду найдут посторонние.</p>
+                    <p>2. Вы сможете восстановить данные в любое время, использовав резервную копию данных, которая создается при записи паролей в Какаду через приложение. Вы сами выбираете, где хранить резервную копию – в компьютере, на съемном диске или в облаке. Резервная копия шифруется мастер-паролем с помощью алгоритма блочного шифрования AES-256 и практически недоступна для взлома. Ни мастер-пароль, ни сами пароли не хранятся нигде в открытом виде. Останется только купить новый Какаду, записать на него резервную копию данных и впредь быть осмотрительнее.</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="accordion">
+                  <a href="">
+                    <h5 class="">Можно ли получить доступ к данным, хранящимся в Какаду, методом перебора PIN-кода?</h5>
+                  </a>
+                  <div class="accordion-content">
+                    <p>Нет. Для проверки введенного PIN используется SHA-1 алгоритм криптографического хеширования. Защита от подбора PIN включает в себя 3 цикла по  отвечать на любые действия в течение часа или до полного обесточивания устройства (отключения от USB). Суммарно после 15 неудачных попыток ввода PIN происходит стирание памяти устройства.</p>
+                    <p>При каждом запуске выводится оставшееся количество попыток до стирания устройства. Это позволит увидеть, пытался ли кто-то подобрать PIN в ваше отсутствие.</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="accordion">
+                  <a href="">
+                    <h5 class="">Можно ли получить доступ к данным, хранящимся в Какаду, методом внутрисхемного вмешательства?</h5>
+                  </a>
+                  <div class="accordion-content">
+                    <p>В Какаду используется микроконтроллер с защитой от чтения, которая предотвращает любые попытки прочитать хранимую  в нем информацию, будь то микропрограмма или пользовательские данные. Снять защиту от чтения возможно исключительно путем полного стирания памяти микроконтроллера. В этом случае помимо пользовательских данных сотрется так же и микропрограмма.</p>
+                    <p>Теоретически есть способ «физического» послойного сканирования микроконтроллера для доступа к хранящейся в нем информации. Однако такая операция очень дорога и в более чем 80% случаев заканчивается неудачей. Поэтому, если Вы не храните на Какаду коды доступа к запуску ракет, бояться нечего.</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="accordion">
+                  <a href="">
+                    <h5 class="">Можно ли взломать Какаду через зараженный компьютер?</h5>
+                  </a>
+                  <div class="accordion-content">
+                    <p>В рабочем режиме устройство опознается как USB клавиатура и не принимает никаких команд со стороны аппаратуры, к которой оно подключено. Это гарантирует полное отсутствие возможности доступа к памяти устройства со стороны вредоносного программного обеспечения.</p>
+                    <p>Для ПК или прочей аппаратуры, к которой подключено устройство, оно ничем не отличается от USB клавиатуры. Соответственно в случае заражения оборудования вредоносным ПО данное ПО так же не сможет отличить менеджер паролей от клавиатуры. В рабочем режиме Какаду не поддерживает никакого вмешательства и управления посредством USB подключения.</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="accordion">
+                  <a href="">
+                    <h5 class="">Можно ли взломать Какаду при его конфигурации через приложение?</h5>
+                  </a>
+                  <div class="accordion-content">
+                    <p>Взломать само устройство Какаду невозможно. Однако существует возможно украсть данные приложения во время конфигурации устройства на зараженном компьютере. Это по сути единственная лазейка для злоумышленников, чтобы похитить данные при работе с Какаду.</p>
+                    <p>Поэтому крайне важно устанавливать приложение Kakadu Manager и конфигурировать устройство на проверенном ПК с активным антивирусом. мы рекомендуем использовать для настройки Какаду только ваш домашний компьютер, в безопасности которого вы уверены.</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="accordion">
+                  <a href="">
+                    <h5 class="">Можно ли взломать резервную копию данных?</h5>
+                  </a>
+                  <div class="accordion-content">
+                    <p>При конфигурации устройства через приложение Какаду создается резервная копия всех данных и настроек, которая шифруется мастер-паролем с помощью алгоритма шифрования AES-256. Мастер-пароль должен состоять минимум из 8 символов, его придумывает сам пользователь. </p>
+                      <p>Резервную копию можно сохранить на домашнем компьютере, другом физическом носителе или в облаке. Это позволит быстро восстановить данные, если вы потеряли или повредили ваш Какаду.</p>
+                    <p>Сложный мастер-пароль обеспечивает безопасность зашифрованных данных. Даже если злоумышленники получили доступ к месту хранения резервной копии (компьютеру, диску или облаку), на взлом резервной копии методом грубой силы, то есть перебором, потребуется много десятков лет.</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="accordion">
+                  <a href="">
+                    <h5 class="">Можно ли заразить Какаду вирусами?</h5>
+                  </a>
+                  <div class="accordion-content">
+                    <p>Нет. В рабочем режиме Какаду не принимает никакой информации от устройств, к которым подключается, он распознается как стандартная USB клавиатура. Все данные хранятся непосредственно в памяти Какаду.</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="accordion">
+                  <a href="">
+                    <h5 class="">Можно ли заразить Какаду вирусами?</h5>
+                  </a>
+                  <div class="accordion-content">
+                    <p>Нет. В рабочем режиме Какаду не принимает никакой информации от устройств, к которым подключается, он распознается как стандартная USB клавиатура. Все данные хранятся непосредственно в памяти Какаду.</p>
+                  </div>
+                </div>
+              </li>
+
+
+
+            </ol>
+
+
+
+
+
+
+
+
+
+
+          </div>
+
+
+          <h3 style="">Сравнение с аналогами</h3>
+
+          <div class="accordion-container">
+            <ol>
+
+              <li>
+                <div class="accordion">
+                  <a href="#">
+                    <h5 class="">Чем Какаду лучше хранения паролей в файле на компьютере?</h5>
+                  </a>
+                  <div class="accordion-content">
+                    <p>Пароли, хранящиеся в файлах на компьютере, уязвимы перед практически любым вредоносным программным обеспечением и вирусами. Злоумышленники могут получить доступ к вашим паролям, заразив компьютер через переход по ссылкам в интернете и скачанные вирусных программ.
+                      <br> Какаду не подключается к интернету и не принимает никаких файлов из компьютера.</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="accordion">
+                  <a href="#">
+                    <h5 class="">Чем Какаду лучше локальных программных менеджеров паролей?</h5>
+                  </a>
+                  <div class="accordion-content">
+                    <p>Программные менеджеры паролей более безопасны, чем простое хранение паролей в экселе или текстовом файле, но и у
+                      них есть свои недостатки. Такие программы создают зашифрованную базу данных паролей, которая хранится на компьютере.
+                      <br> Главный недостаток таких решений – для использования паролей необходимо иметь доступ к компьютеру с определенной операционной системой; в случае работы с зараженным ПК возможна кража сразу всей базы кодов доступа. В случае Какаду все данные хранятся в самом устройстве в зашифрованном виде, доступ к которому с компьютера невозможен. Резервная копия данных шифруется сверхнадежным алгоритмом AES-256.</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="accordion">
+                  <a href="#">
+                    <h5 class="">Чем Какаду лучше облачных менеджеров паролей?</h5>
+                  </a>
+                  <div class="accordion-content">
+                    <p>Облачные менеджеры паролей – следующий уровень безопасности по сравнению с локальными программными менеджерами паролей,
+                      но и они не лишены недостатков.
+                      <br> Главный из них заключается в необходимости доступа в интернет для получения паролей. Это ограничивает возможности
+                      использования облачных хранилищ, если пользователю необходим пароль не для интернет-сервиса, а для аппаратного
+                      устройства или программы без соединения с сетью, например, для входа в защищённую базу данных на рабочем локальном
+                      сервере или для разблокировки смартфона в отсутствие беспроводных соединений и т. д. Другими недостатками облачных
+                      менеджеров паролей являются вероятность утечки информации по вине третьих лиц (владельцев сервиса) и зависимость
+                      менеджера от работоспособности сервера в данный момент.</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="accordion">
+                  <a href="#">
+                    <h5 class="">Чем Какаду лучше хранения паролей на бумажке?</h5>
+                  </a>
+                  <div class="accordion-content">
+                    <p>Как ни странно, при все большем проникновении цифровых технологий в нашу жизнь, хранение важных данных на бумаге
+                      становится безопаснее многих изощренных компьютерных способов. Злоумышленники не смогут удаленно взломать и похитить
+                      пароли из вашей записной книжки.
+                      <br>  Однако во всем, что касается не безопасности, а удобства хранения и ввода паролей бумажные носители остаются далеко
+                      позади цифровых решений. Блокноты не позволяют создавать резервные копии, быстро вводить длинные сложные пароли,
+                      на бумаге неудобно дополнять/изменять/стирать уже записанные данные. Наконец, бумажные записи имеют свойство теряться,
+                      рваться, гореть и не оказываться под рукой в нужный момент.</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="accordion">
+                  <a href="#">
+                    <h5 class="">Чем Какаду лучше других аппаратных менеджеров паролей?</h5>
+                  </a>
+                  <div class="accordion-content">
+                    <p>Аппаратные решения, позволяющие безопасно хранить и вводить пароли, присутствуют как на коммерческом рынке, так и в интернете в виде DIY-проектов.
+                      <br> Однако большинство уступают Какаду по функциональности и защите данных. Шифрованные накопители, по сути — просто
+                      флешки с паролем, позволяют хранить документы, но на порядок ниже в плане безопасности и доступа.
+                      <br>Сейчас на рынке представлен только один аппаратный менеджер паролей, который представляет собой считыватель карт,
+                      в который помещается смарт-карта с записанными на нее паролями.
+                      <br>Преимущества Какаду перед аналогами: больше памяти для хранения данных, более компактные размеры, исполнение в едином корпусе
+                      без отдельной смарт-карты, универсальное приложение для конфигурации, подходящее для всех платформ и браузеров.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ol>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="wave"></div>
+  <footer>
+
+	<div class="container-fluid bg_footer">
+							<div class="hr">
+						</div>
+	<div class="container ">
+		<div class="row ">
+			<div class="col-12  d-flex justify-content-center">
+				<div class="footerTop ">
+					
+					<div class="footerTop_title ">
+						<img src="/img/geek.png" alt="" class="footerTop_img">
+						Подпишитесь на нас в социальных сетях 
+					</div>
+					<div class="footerTop_description">
+						Читайте полезные статьи в области безопасности и IT
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row justify-content-center ">
+			<div class="col-8">
+					<div class=" footer__socialBlock footer__socialBlock1">
+						<div id="vk_groups2">
+
+						</div>
+					</div>
+				</div>
+		</div>
+	</div>
+</div>
+
+	<div class="container-fluid">
+		<div class="container">
+		<div class="row no-gutters">
+			<div class="col">
+        <div class="section footer">
+          <div class="footer__content-wrap  d-flex justify-content-sm-center">
+            <div class="footer__content-wrap__item footer__name">
+              <h4>CRYPTO KAKADU 2018</h4>
+            </div>
+            <div class="footer__content-wrap__item footer__menu  d-flex justify-content-sm-center justify-content-start">
+              <ul>
+                <li><a href="partners.html">Предложение корпоративным клиентам и партнерам</a></li>
+                <li><a href="shop.html">Оформление предзаказа</a></li>
+                <li><a href="faq.html">FAQ — часто задаваемые вопросы</a></li>
+              </ul>
+            </div>
+            <div class="footer__content-wrap__item footer__about  d-flex justify-content-sm-center justify-content-start">
+              <div class="footer__about_center ">
+								<h4>Разработчик и изготовитель</h4>
+								<p>ООО «Базовые технологии» <br>
+									ОГРН 1147748017317 <br>
+									ИНН 7731487174</p>
+							</div>
+            </div>
+            <div class="footer__content-wrap__item footer__contacts  d-flex justify-content-sm-center justify-content-start">
+              <div class="footer__contacts_center">
+								<h4>Электронная почта:</h4>
+								<p>hello@kakadu.io</p>
+							</div>
+            </div>
+          </div>
+        </div>
+
+			</div>
+		</div>
+		</div>
+	</div>
+</footer>
+<script type="text/javascript">
+	VK.Widgets.Group("vk_groups1", {mode: 4, wide: 1, no_cover: 1, width: "auto", height: "270"}, 172944070);
+</script>
+<script type="text/javascript">
+	VK.Widgets.Group("vk_groups2", {mode: 4, wide: 1, no_cover: 1, width: "auto", height: "270"}, 172944070);
+</script>
+	
+
+
+
+
+<!-- jQuery -->
+<script src="libs/jquery/jquery.min.js"></script>
+
+<!-- Owl carousel -->
+<script src="libs/owlcarousel/owl.carousel.min.js"></script>
+
+<!-- custom -->
+<script src="js/main.js"></script>
+
+
+</body>
+</html>

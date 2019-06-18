@@ -1,0 +1,247 @@
+{% extends 'base.njk' %}
+
+{% set page = "features" %}
+
+{% block content %}
+  {% include 'partials/nav-top.njk' %}
+	<div class="container-fluid">
+	<div class="container">
+	<div class="row">
+			<div class="col-12">
+				<div class="page-content__header">
+					<h1>Корзина с товарами</h1>
+				</div>
+				<div class="page-content__social  page-content__social_Cart d-none d-md-block align-items-center">
+					<div class="page-content__social_item page-content__social_item1 d-flex align-items-center justify-content-center" >
+						<a href="#" class="page-content__socialIcon1">
+								<i class="fas fa-share-alt"></i>
+						</a>
+					</div>
+					<div class="page-content__social_item page-content__social_item2 d-flex align-items-center  justify-content-center ">
+						<a href="#" class="page-content__socialIcon2">
+								<i class="fab fa-vk"></i>
+						</a> 
+					</div>
+					<div class="page-content__social_item page-content__social_item3 d-flex align-items-center  justify-content-center ">
+						<a href="#"  class="page-content__socialIcon3">
+								<i class="fab fa-facebook-f"></i>
+						</a>	
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		
+
+	</div>
+	<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="page-content">
+						<div class="page-content__desc">
+							<div class="shop__main-section">
+								<div class="shop__product-gallery shop__product-gallery-cart">
+								<!-- <div class="col-13"> -->
+									<div class="row no-gutters">
+									
+										<div class=" col-3  align-self-center">
+											<div class="shop__product-gallery_img">
+												<img src="/img/order-gallery/Device-kakadu.png" alt="">
+											</div>
+										</div>
+										<div class="col-4 col-md-4 align-self-center">
+											<div class="shop__product-gallery_description ">
+												USB устройство <br>
+												Crypto Kakadu, Белый
+											</div>
+										</div>
+										<div class="col-2  align-self-center">
+											<div class="shop__product-gallery_totalPrice d-flex justify-content-center">
+												<div class="shop__product-gallery_counter">
+													<img src="/img/order-gallery/counter.png" alt="">
+												<div class="shop__product-gallery_counterBtn">
+											<div class="shop__product-gallery_btnItem shop__product-gallery_btnItem1">
+											<a href="#">
+													<i class="fas fa-sm fa-minus"></i>
+											</a>
+										</div>
+										<div class="shop__product-gallery_btnItem shop__product-gallery_btnItem2">
+											2
+										</div>
+										<div class="shop__product-gallery_btnItem shop__product-gallery_btnItem3">
+											<a href="#">
+													<i class="fas  fa-sm fa-plus"></i>
+											</a>
+										</div>
+									</div>
+										<div class="shop__product-gallery_counterText">
+											3900 ₽/шт
+										</div>
+									</div>
+										
+									</div>
+								</div>
+								<div class="col-2  align-self-center">
+									<div class="shop__product-gallery_totalPrice d-flex justify-content-center">
+										7800 ₽
+									</div>
+								</div>
+								<div class="col-1  align-self-center">
+									<div class="shop__product-gallery_close">
+											<i class="far fa-lg fa-times-circle"></i>
+									</div>
+								</div>
+								
+							</div>
+							
+							
+							
+				<!-- </div> -->
+						</div>
+						<div class="shop__product-gallery shop__product-gallery-cart">
+								<div class="row no-gutters">
+									<div class="col-3  align-self-center">
+										<div class="shop__product-gallery_img">
+											<img src="/img/order-gallery/device-kakaduu.png" alt="">
+										</div>
+									</div>
+								<div class="col-4 col-sm-4 align-self-center">
+								<div class="shop__product-gallery_description ">
+									USB устройство <br>
+									Crypto Kakadu, Белый
+								</div>
+							</div>
+							<div class="col-sm-2 col-2 align-self-center">
+								<div class="shop__product-gallery_totalPrice d-flex justify-content-center">
+								<div class="shop__product-gallery_counter">
+									<img src="/img/order-gallery/counter.png" alt="">
+									<div class="shop__product-gallery_counterBtn">
+										<div class="shop__product-gallery_btnItem shop__product-gallery_btnItem1  ">
+												<a href="#">
+														<i class="fas fa-sm fa-minus"></i>
+												</a>
+										</div>
+										<div class="shop__product-gallery_btnItem shop__product-gallery_btnItem2 ">
+											2
+										</div>
+										<div class="shop__product-gallery_btnItem shop__product-gallery_btnItem3 ">
+											<a href="#">
+													<i class="fas  fa-sm fa-plus"></i>
+											</a>
+										</div>
+									</div>
+									<div class="shop__product-gallery_counterText">
+										3900 ₽/шт
+									</div>
+								</div>
+									
+								</div>
+							</div>
+							<div class="col-2  align-self-center">
+								<div class="shop__product-gallery_totalPrice d-flex justify-content-center">
+									7800 ₽
+								</div>
+							</div>
+							<div class="col-1  align-self-center">
+								<div class="shop__product-gallery_close">
+										<i class="far fa-lg fa-times-circle"></i>
+								</div>
+							</div>
+							
+						</div>
+						
+						
+						
+					
+					</div>
+					
+							{#<div class="shop__order-block">#}
+								{#<form action="#">#}
+									{#<p class="fz-14 m-0 lh-1"><b>Итого:</b> Розничная цена</p>#}
+									{#<div class="shop__price-count">#}
+										{#<div class="shop__initial-price-wrap mb-20">#}
+											{#<span class="shop__initial-price fz-48 fw-sbold ">3900<span class="fw-light">&nbsp;₽</span></span>#}
+											{#<div class="input-with-img">#}
+												{#<input id="input_count" type="number" value="1" min="1">#}
+												{#<div class="btn-absolute-wrapper">#}
+													{#<button class="btn-img"><img src="img/controls/icon-minus-circle.png" alt=""></button>#}
+													{#<button class="btn-img"><img src="img/controls/icon-plus-circle.png" alt=""></button>#}
+												{#</div>#}
+											{#</div>#}
+										{#</div>#}
+	
+	
+									{#</div>#}
+									{#<div class="shop__color-picker">#}
+										{#<div class="shop__color-picker__name"><p>Выберите цвет: </p></div>#}
+										{#<div class="shop__color-picker__item shop__color-picker__item--active"><div class="shop__color-picker__item__inner shop__color-picker__item--c-black"></div></div>#}
+										{#<div class="shop__color-picker__item"><div class="shop__color-picker__item__inner shop__color-picker__item--c-white"></div></div>#}
+										{#<div class="shop__color-picker__item"><div class="shop__color-picker__item__inner shop__color-picker__item--c-blue"></div></div>#}
+	
+										{#<div class="shop__color-picker__item shop__color-picker__item--c-white"></div>#}
+										{#<div class="shop__color-picker__item shop__color-picker__item--c-blue"></div>#}
+									{#</div>#}
+									{#<div class="shop__color-picker mb-35">#}
+										{#<div class="shop__color-picker__name"><p>Выберите цвет: </p></div>#}
+										{#<label class="custom-radio custom-radio--c-black custom-radio--active">#}
+											{#<input type="radio" value="black" checked="checked" name="device-color-radio">#}
+											{#<span class="checkmark"></span>#}
+											
+								
+										{#</label>#}
+										{#<label class="custom-radio custom-radio--c-white">#}
+											{#<input type="radio" value="white" name="device-color-radio">#}
+											{#<span class="checkmark"></span>#}
+										{#</label>#}
+										{#<label class="custom-radio custom-radio--c-blue">#}
+											{#<input type="radio" value="blue" name="device-color-radio">#}
+											{#<span class="checkmark"></span>#}
+										{#</label>#}
+										
+	
+									{#</div>#}
+	
+									{#<button type="submit" class="btn-order mb-35">Купить</button>#}
+								{#</form>#}
+								{#<div class="sales-b2b">#}
+									{#<img src="img/icons/order-sale.png" alt="">#}
+									{#<div class="sales-b2b__text-wrap">#}
+										{#<a href="#">Получить скидки для партнеров#}
+											{#и корпоративных клиентов</a>#}
+									{#</div>#}
+	
+								{#</div>#}
+							{#</div>#}
+	
+						{#</div>#}
+						{% include 'partials/cart__order-block.njk' %}
+						
+						<div class="container">
+							<div class="row ">
+								<div class="col ">
+									
+									<div class="cartLinktoShop">
+											<img src="/img/arrow-left-thin.png" alt="">
+										<a href="shop.html">
+											К странице с товаром
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+								
+	
+							</div>
+						</div>
+	
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+
+
+  {% include 'partials/wave.njk' %}
+  {% include 'partials/footer.njk' %}
+
+{% endblock %}

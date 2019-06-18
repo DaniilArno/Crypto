@@ -1,0 +1,70 @@
+<div class="nav-top">
+  <div class="container ">
+    <div class="row  justify-content-center">
+          <div class="col-lg-3 col-md-3 col-sm-4 col-5 gutters order-1">
+						<div class="nav-top-item nav-top-item-logo d-flex  justify-content-center">
+							<a href="/"><img src="img/logo-kakadu.png" alt="Crypto Kakadu" class="nav-top-item-logo__img "></a>
+						</div>
+					</div>
+          <div class="col-lg-1 col-md-1 col-sm-2 col-3 order-md-2 order-sm-4 order-2 gutters ">
+						<a id="menu"	href="#" onclick="openModal('topMenuModal'); return false;" class="nav-top-item nav-top-item-btn-menu d-flex justify-content-center">
+							<div class="nav-top-item-menu">
+								<img src="img/nav-top/icon-menu.png" alt="" class="nav-top-item-menuIcon">
+								<span>Меню</span>
+							</div>
+						</a>
+					</div>
+          <div class="col-lg-1 col-md-1  col-sm-2 d-none d-sm-block order-sm-3  gutters">
+						<div id="menu_share">
+							<a   href="cart.html" class="nav-top-item nav-top-item-share tooltip d-flex justify-content-center" onclick="return false;" >
+								<img src="/img/nav-top/ico_cart.png" class="nav-top-img" alt="">
+								<div id="share-tooltip" class="tooltiptext" style="display: none;">
+									<script src="//yastatic.net/share2/share.js"></script>
+									<div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,twitter"></div>
+								</div>
+							</a>
+						</div>
+					</div>
+          <div class="  col-lg-2 col-md-3 col-sm-3 col-4 order-md-6 order-sm-4 order-2 gutters d-flex justify-content-center">
+						<div class="phone__item_none">
+							<a href="callto:+7 499 938 50 01" class="nav-top-item nav-top-item__phone  phone_none d-flex justify-content-center">
+								{# <img src="/img/nav-top/mobile.png" alt=""> #}
+								<span>
+									+7 499 938-50-01
+									<br>
+									<span class="nav-top-itemSchedule">c 9:00 до 19:00</span>
+								</span>
+							</a>
+						</div>
+						<!-- <div class=" col-2 ">
+								<a href="callto:+7 495 740-30-69" class="nav-top-item nav-top-item__phone2  d-flex justify-content-center ">
+										<img src="/img/nav-top/mobile.png" alt="" class="">
+										<span class="nav-top-item__phone__text2  phone_none2">
+										 +7 495 740-30-69 
+										</span>
+									</a>
+						</div> -->
+						
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-3 col-sm-4  order-sm-4   d-none d-lg-block gutters">
+							<div  class="btn_top">
+									<a  	class="  nav-top-item  nav-top-item-border d-flex justify-content-center" href="files/kakadu-setup.exe" role="button">
+													<span>Скачать программу</span>
+									</a>
+							</div>
+							
+						</div>
+		
+					<div class=" col-lg-3 col-md-3 col-sm-4 col-3 d-sm-none d-md-block order-sm-5    d-none d-md-block gutters">
+						<div id="btn_top" class="btn_top">
+								<a  id="btn_top_link"	class="  nav-top-item nav-top-item-download btn2 btn-simple  d-flex justify-content-center" href="shop.html" role="button">
+												<span>Выбрать цвет и купить</span>
+										{# <img src="/img/nav-top/icon-arrow-right.png" class="navtop-image btn__image-right navtop-image2 btn__image-right2" alt=""> #}
+								</a>
+						</div>
+					</div>
+    </div>
+  </div>
+</div>
+{% include 'partials/modal-menu-main.njk' %}
+

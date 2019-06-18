@@ -1,0 +1,149 @@
+{% extends 'base.njk' %}
+
+{% set page = "order" %}
+
+{% block content %}
+
+  {% include 'partials/nav-top.njk' %}
+
+<div class="container-fluid">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+				<div class="page-content__social  d-none d-md-block">
+          <div class="page-content__social_item page-content__social_item1 d-flex align-items-center justify-content-center" >
+            <a href="#" class="page-content__socialIcon1">
+                <i class="fas fa-share-alt"></i>
+            </a>
+          </div>
+          <div class="page-content__social_item page-content__social_item2 d-flex align-items-center  justify-content-center ">
+            <a href="#" class="page-content__socialIcon2">
+                <i class="fab fa-vk"></i>
+            </a> 
+          </div>
+          <div class="page-content__social_item page-content__social_item3 d-flex align-items-center  justify-content-center ">
+            <a href="#"  class="page-content__socialIcon3">
+                <i class="fab fa-facebook-f"></i>
+            </a>	
+          </div>
+					</div>
+					
+          </div>
+          <div class="page-content__header shop__header w-670">
+            <h1>Оформление заказа</h1>
+          </div>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+		
+	</div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="page-content">
+          <div class="page-content__desc">
+            
+          <div class="shop__main-section">
+            <div class="breadcrumbs form-row">
+              <!-- <a href="shop.html" class="">Магазин</a> -->
+              <a href="#" onclick="return false;" class="active">Кому</a>
+              <a href="delivery.html" class="">Доставка и оплата</a>
+            </div>
+            <div class="form-order-who-wrap">
+              <form action="#" class="form-order form-order-who">
+									<div class="form-row">
+										<label for="">Имя</label>
+										<input type="text" placeholder="Иван">
+									</div>
+                <div class="form-row">
+                  <label for="">Фамилия</label>
+                  <input type="text" placeholder="Иванов">
+                </div>
+                <div class="form-row">
+                  <label for="">Отчетство</label>
+                  <input type="text" placeholder="Иванович" class="">
+                </div>
+                <div class="form-row">
+                  <label for="">Номер телефона</label>
+									<input type="text" placeholder="+7 012 345-67-89" class="">
+									{# <div class="label_undertext">
+											Без восьмерки. Телефон нужен курьеру для связи с вами.
+									</div> #}
+                </div>
+                {# <div class="form-row">
+                  <label for="" id="label_textarea">
+										Комментарий <br> (Не обязательно)
+									</label>
+											<textarea rows="4" cols="50" placeholder="Для особых пожеланий"></textarea>
+                </div> #}
+                <div class="form-row mt-50">
+                  {#<button class="btn-blue">Следующий шаг</button>#}
+                  {#<a href="delivery.html" class="">Следующий шаг</a>#}
+                  <a href="delivery.html" class="btn-order-link btn-order-linkOrder mb-35"><span>Следующий шаг</span></a>
+                </div>
+              </form>
+            </div>
+            {#<div class="shop__order-block">#}
+              {#<form action="#">#}
+                {#<p class="fz-14 m-0 lh-1"><b>Итого:</b> Розничная цена <span id="price_for_one" style="display: none;">3900</span></p>#}
+                {#<div class="shop__price-count">#}
+                  {#<div class="shop__initial-price-wrap mb-20">#}
+                    {#<span class="shop__initial-price fz-48 fw-sbold "><span id="order-total"></span><span class="fw-light">&nbsp;₽</span></span>#}
+                    {#<div class="input-with-img">#}
+                      {#<input id="input_count" type="number" value="1" min="1">#}
+                      {#<div class="btn-absolute-wrapper">#}
+                        {#<button id="order_minus" class="btn-img"><img src="img/controls/icon-minus-circle.png" alt=""></button>#}
+                        {#<button id="order_plus" class="btn-img"><img src="img/controls/icon-plus-circle.png" alt=""></button>#}
+                      {#</div>#}
+                    {#</div>#}
+                  {#</div>#}
+
+
+                {#</div>#}
+                {#<div class="shop__color-picker mb-35">#}
+                  {#<div class="shop__color-picker__name"><p>Выберите цвет: </p></div>#}
+                  {#<label class="custom-radio custom-radio--c-black custom-radio--active">#}
+                    {#<input type="radio" value="black" checked="checked" name="device-color-radio">#}
+                    {#<span class="checkmark"></span>#}
+                  {#</label>#}
+                  {#<label class="custom-radio custom-radio--c-white">#}
+                    {#<input type="radio" value="white" name="device-color-radio">#}
+                    {#<span class="checkmark"></span>#}
+                  {#</label>#}
+                  {#<label class="custom-radio custom-radio--c-blue">#}
+                    {#<input type="radio" value="blue" name="device-color-radio">#}
+                    {#<span class="checkmark"></span>#}
+                  {#</label>#}
+
+                {#</div>#}
+
+                {#<button type="submit" class="btn-order mb-35">Купить</button>#}
+              {#</form>#}
+              {#<div class="sales-b2b">#}
+                {#<img src="img/icons/order-sale.png" alt="">#}
+                {#<div class="sales-b2b__text-wrap">#}
+                  {#<a href="#">Получить скидки для партнеров#}
+                    {#и корпоративных клиентов</a>#}
+                {#</div>#}
+
+              {#</div>#}
+            {#</div>#}
+            {% include 'partials/order__order-block.njk' %}
+
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  {% include 'partials/wave.njk' %}
+  {% include 'partials/footer.njk' %}
+
+{% endblock %}

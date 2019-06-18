@@ -1,0 +1,20 @@
+{% extends 'base.njk' %}
+
+{% set page = "app" %}
+
+{% block content %}
+  {% include 'partials/nav-top.njk' %}
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        {% include 'partials/test/share.njk' %}
+      </div>
+    </div>
+  </div>
+
+
+  {% include 'partials/wave.njk' %}
+  {% include 'partials/footer.njk' %}
+
+{% endblock %}
